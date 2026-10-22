@@ -1,0 +1,359 @@
+setting,k_days,auc,false_vacancy,missed_vacancy,dataset,features,room,model
+within room,,0.9727,0.0,0.2746,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+"other rooms, no set-up",0.0,0.9247,0.2364,0.1081,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+"other rooms, re-threshold",1.0,0.9247,0.0182,0.3668,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+"other rooms, re-threshold",2.0,0.9247,0.0182,0.4762,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+"other rooms, re-threshold",3.0,0.9247,0.0182,0.4607,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+"other rooms, re-threshold",5.0,0.9247,0.0182,0.4363,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+"other rooms, re-threshold",7.0,0.9247,0.0,0.5731,ROBOD,Light + CO2 + temperature (original),Lecture room 1,LR
+within room,,0.9625,0.0,0.3441,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+"other rooms, no set-up",0.0,0.9448,0.1818,0.1218,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+"other rooms, re-threshold",1.0,0.9448,0.0364,0.3475,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+"other rooms, re-threshold",2.0,0.9448,0.0,0.6006,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+"other rooms, re-threshold",3.0,0.9448,0.0,0.5689,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+"other rooms, re-threshold",5.0,0.9448,0.0,0.6062,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+"other rooms, re-threshold",7.0,0.9448,0.0,0.6825,ROBOD,Light + CO2 + temperature (original),Lecture room 1,RF
+within room,,0.8576,0.4537,0.0504,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+"other rooms, no set-up",0.0,0.8861,0.1481,0.2184,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+"other rooms, re-threshold",1.0,0.8861,0.3481,0.0661,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+"other rooms, re-threshold",2.0,0.8861,0.1796,0.1767,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+"other rooms, re-threshold",3.0,0.8861,0.1815,0.1724,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+"other rooms, re-threshold",5.0,0.8861,0.2037,0.1566,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+"other rooms, re-threshold",7.0,0.8861,0.2148,0.1404,ROBOD,Light + CO2 + temperature (original),Lecture room 2,LR
+within room,,0.9285,0.0907,0.174,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+"other rooms, no set-up",0.0,0.8651,0.1407,0.207,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+"other rooms, re-threshold",1.0,0.8651,0.0,0.477,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+"other rooms, re-threshold",2.0,0.8651,0.0,0.4732,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+"other rooms, re-threshold",3.0,0.8651,0.0,0.4981,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+"other rooms, re-threshold",5.0,0.8651,0.0,0.4981,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+"other rooms, re-threshold",7.0,0.8651,0.0,0.4981,ROBOD,Light + CO2 + temperature (original),Lecture room 2,RF
+within room,,0.9924,0.0,0.1691,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+"other rooms, no set-up",0.0,0.9738,0.0543,0.0539,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+"other rooms, re-threshold",1.0,0.9738,0.0,0.5353,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+"other rooms, re-threshold",2.0,0.9738,0.0013,0.4734,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+"other rooms, re-threshold",3.0,0.9738,0.0013,0.4294,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+"other rooms, re-threshold",5.0,0.9738,0.0013,0.4529,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+"other rooms, re-threshold",7.0,0.9738,0.0,0.5793,ROBOD,Light + CO2 + temperature (original),Office (admin),LR
+within room,,0.9681,0.0026,0.2751,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+"other rooms, no set-up",0.0,0.9663,0.0065,0.1945,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+"other rooms, re-threshold",1.0,0.9663,0.0,0.3631,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+"other rooms, re-threshold",2.0,0.9663,0.0013,0.2999,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+"other rooms, re-threshold",3.0,0.9663,0.0,0.3352,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+"other rooms, re-threshold",5.0,0.9663,0.0,0.3501,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+"other rooms, re-threshold",7.0,0.9663,0.0,0.381,ROBOD,Light + CO2 + temperature (original),Office (admin),RF
+within room,,0.8988,0.0199,0.244,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+"other rooms, no set-up",0.0,0.892,0.3149,0.1344,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+"other rooms, re-threshold",1.0,0.892,0.7955,0.0431,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+"other rooms, re-threshold",2.0,0.892,0.3404,0.1287,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+"other rooms, re-threshold",3.0,0.892,0.3384,0.1294,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+"other rooms, re-threshold",5.0,0.892,0.159,0.1888,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+"other rooms, re-threshold",7.0,0.892,0.1427,0.1924,ROBOD,Light + CO2 + temperature (original),Office (research),LR
+within room,,0.9031,0.0215,0.2256,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+"other rooms, no set-up",0.0,0.8778,0.177,0.2157,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+"other rooms, re-threshold",1.0,0.8778,0.0163,0.3366,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+"other rooms, re-threshold",2.0,0.8778,0.0183,0.3317,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+"other rooms, re-threshold",3.0,0.8778,0.0223,0.3239,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+"other rooms, re-threshold",5.0,0.8778,0.0271,0.3133,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+"other rooms, re-threshold",7.0,0.8778,0.0598,0.2716,ROBOD,Light + CO2 + temperature (original),Office (research),RF
+within room,,0.9478,0.0737,0.1058,ROBOD,Light + CO2 + temperature (original),Library,LR
+"other rooms, no set-up",0.0,0.9445,0.0099,0.2141,ROBOD,Light + CO2 + temperature (original),Library,LR
+"other rooms, re-threshold",1.0,0.9445,0.0336,0.1366,ROBOD,Light + CO2 + temperature (original),Library,LR
+"other rooms, re-threshold",2.0,0.9445,0.0289,0.1495,ROBOD,Light + CO2 + temperature (original),Library,LR
+"other rooms, re-threshold",3.0,0.9445,0.0,0.2736,ROBOD,Light + CO2 + temperature (original),Library,LR
+"other rooms, re-threshold",5.0,0.9445,0.0,0.2686,ROBOD,Light + CO2 + temperature (original),Library,LR
+"other rooms, re-threshold",7.0,0.9445,0.0125,0.1999,ROBOD,Light + CO2 + temperature (original),Library,LR
+within room,,0.9313,0.0776,0.1125,ROBOD,Light + CO2 + temperature (original),Library,RF
+"other rooms, no set-up",0.0,0.9095,0.0645,0.1803,ROBOD,Light + CO2 + temperature (original),Library,RF
+"other rooms, re-threshold",1.0,0.9095,0.248,0.1224,ROBOD,Light + CO2 + temperature (original),Library,RF
+"other rooms, re-threshold",2.0,0.9095,0.1888,0.1358,ROBOD,Light + CO2 + temperature (original),Library,RF
+"other rooms, re-threshold",3.0,0.9095,0.0039,0.4002,ROBOD,Light + CO2 + temperature (original),Library,RF
+"other rooms, re-threshold",5.0,0.9095,0.0039,0.297,ROBOD,Light + CO2 + temperature (original),Library,RF
+"other rooms, re-threshold",7.0,0.9095,0.0243,0.2153,ROBOD,Light + CO2 + temperature (original),Library,RF
+within room,,0.9808,0.0,0.2544,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+"other rooms, no set-up",0.0,0.9327,0.1818,0.0974,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+"other rooms, re-threshold",1.0,0.9327,0.1273,0.287,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+"other rooms, re-threshold",2.0,0.9327,0.0182,0.4839,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+"other rooms, re-threshold",3.0,0.9327,0.0727,0.3852,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+"other rooms, re-threshold",5.0,0.9327,0.0727,0.3711,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+"other rooms, re-threshold",7.0,0.9327,0.0,0.5663,ROBOD,Environmental + Wi-Fi,Lecture room 1,LR
+within room,,0.9721,0.0,0.2694,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+"other rooms, no set-up",0.0,0.9304,0.2727,0.1042,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+"other rooms, re-threshold",1.0,0.9304,0.0,0.435,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+"other rooms, re-threshold",2.0,0.9304,0.0,0.6937,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+"other rooms, re-threshold",3.0,0.9304,0.0,0.6568,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+"other rooms, re-threshold",5.0,0.9304,0.0,0.6461,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+"other rooms, re-threshold",7.0,0.9304,0.0,0.7237,ROBOD,Environmental + Wi-Fi,Lecture room 1,RF
+within room,,0.972,0.1,0.0846,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+"other rooms, no set-up",0.0,0.9602,0.0778,0.1772,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+"other rooms, re-threshold",1.0,0.9602,0.2648,0.0114,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+"other rooms, re-threshold",2.0,0.9602,0.1426,0.0656,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+"other rooms, re-threshold",3.0,0.9602,0.1444,0.0602,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+"other rooms, re-threshold",5.0,0.9602,0.163,0.052,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+"other rooms, re-threshold",7.0,0.9602,0.1426,0.0607,ROBOD,Environmental + Wi-Fi,Lecture room 2,LR
+within room,,0.9545,0.0352,0.1393,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+"other rooms, no set-up",0.0,0.8756,0.1278,0.1837,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+"other rooms, re-threshold",1.0,0.8756,0.0093,0.3843,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+"other rooms, re-threshold",2.0,0.8756,0.0093,0.3778,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+"other rooms, re-threshold",3.0,0.8756,0.0093,0.4276,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+"other rooms, re-threshold",5.0,0.8756,0.0093,0.426,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+"other rooms, re-threshold",7.0,0.8756,0.0093,0.4276,ROBOD,Environmental + Wi-Fi,Lecture room 2,RF
+within room,,0.9907,0.0078,0.1344,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+"other rooms, no set-up",0.0,0.9704,0.3933,0.0273,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+"other rooms, re-threshold",1.0,0.9704,0.0,0.5211,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+"other rooms, re-threshold",2.0,0.9704,0.0013,0.2962,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+"other rooms, re-threshold",3.0,0.9704,0.0013,0.4207,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+"other rooms, re-threshold",5.0,0.9704,0.0013,0.461,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+"other rooms, re-threshold",7.0,0.9704,0.0,0.5434,ROBOD,Environmental + Wi-Fi,Office (admin),LR
+within room,,0.9615,0.0013,0.2701,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+"other rooms, no set-up",0.0,0.9568,0.0957,0.0936,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+"other rooms, re-threshold",1.0,0.9568,0.0,0.3197,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+"other rooms, re-threshold",2.0,0.9568,0.0129,0.1784,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+"other rooms, re-threshold",3.0,0.9568,0.0129,0.1735,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+"other rooms, re-threshold",5.0,0.9568,0.0129,0.1822,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+"other rooms, re-threshold",7.0,0.9568,0.0,0.303,ROBOD,Environmental + Wi-Fi,Office (admin),RF
+within room,,0.8975,0.0231,0.2447,ROBOD,Environmental + Wi-Fi,Office (research),LR
+"other rooms, no set-up",0.0,0.886,0.4396,0.1202,ROBOD,Environmental + Wi-Fi,Office (research),LR
+"other rooms, re-threshold",1.0,0.886,0.7182,0.0552,ROBOD,Environmental + Wi-Fi,Office (research),LR
+"other rooms, re-threshold",2.0,0.886,0.1682,0.1874,ROBOD,Environmental + Wi-Fi,Office (research),LR
+"other rooms, re-threshold",3.0,0.886,0.177,0.1839,ROBOD,Environmental + Wi-Fi,Office (research),LR
+"other rooms, re-threshold",5.0,0.886,0.1104,0.2051,ROBOD,Environmental + Wi-Fi,Office (research),LR
+"other rooms, re-threshold",7.0,0.886,0.043,0.2603,ROBOD,Environmental + Wi-Fi,Office (research),LR
+within room,,0.9027,0.0183,0.2214,ROBOD,Environmental + Wi-Fi,Office (research),RF
+"other rooms, no set-up",0.0,0.8728,0.2407,0.1966,ROBOD,Environmental + Wi-Fi,Office (research),RF
+"other rooms, re-threshold",1.0,0.8728,0.3089,0.1669,ROBOD,Environmental + Wi-Fi,Office (research),RF
+"other rooms, re-threshold",2.0,0.8728,0.0861,0.2631,ROBOD,Environmental + Wi-Fi,Office (research),RF
+"other rooms, re-threshold",3.0,0.8728,0.0953,0.2581,ROBOD,Environmental + Wi-Fi,Office (research),RF
+"other rooms, re-threshold",5.0,0.8728,0.0953,0.2581,ROBOD,Environmental + Wi-Fi,Office (research),RF
+"other rooms, re-threshold",7.0,0.8728,0.1024,0.2532,ROBOD,Environmental + Wi-Fi,Office (research),RF
+within room,,0.9445,0.0724,0.1075,ROBOD,Environmental + Wi-Fi,Library,LR
+"other rooms, no set-up",0.0,0.9435,0.0086,0.2195,ROBOD,Environmental + Wi-Fi,Library,LR
+"other rooms, re-threshold",1.0,0.9435,0.1191,0.1004,ROBOD,Environmental + Wi-Fi,Library,LR
+"other rooms, re-threshold",2.0,0.9435,0.1059,0.1025,ROBOD,Environmental + Wi-Fi,Library,LR
+"other rooms, re-threshold",3.0,0.9435,0.0,0.3299,ROBOD,Environmental + Wi-Fi,Library,LR
+"other rooms, re-threshold",5.0,0.9435,0.0105,0.2137,ROBOD,Environmental + Wi-Fi,Library,LR
+"other rooms, re-threshold",7.0,0.9435,0.0132,0.2041,ROBOD,Environmental + Wi-Fi,Library,LR
+within room,,0.935,0.0599,0.1299,ROBOD,Environmental + Wi-Fi,Library,RF
+"other rooms, no set-up",0.0,0.9105,0.0125,0.227,ROBOD,Environmental + Wi-Fi,Library,RF
+"other rooms, re-threshold",1.0,0.9105,0.2112,0.1329,ROBOD,Environmental + Wi-Fi,Library,RF
+"other rooms, re-threshold",2.0,0.9105,0.1368,0.1454,ROBOD,Environmental + Wi-Fi,Library,RF
+"other rooms, re-threshold",3.0,0.9105,0.0079,0.2778,ROBOD,Environmental + Wi-Fi,Library,RF
+"other rooms, re-threshold",5.0,0.9105,0.0079,0.2424,ROBOD,Environmental + Wi-Fi,Library,RF
+"other rooms, re-threshold",7.0,0.9105,0.0092,0.2332,ROBOD,Environmental + Wi-Fi,Library,RF
+within room,,0.9586,0.0,0.3359,ROBOD,All room sensors,Lecture room 1,LR
+"other rooms, no set-up",0.0,0.9611,0.6909,0.0047,ROBOD,All room sensors,Lecture room 1,LR
+"other rooms, re-threshold",1.0,0.9611,0.0182,0.3509,ROBOD,All room sensors,Lecture room 1,LR
+"other rooms, re-threshold",2.0,0.9611,0.0,0.7259,ROBOD,All room sensors,Lecture room 1,LR
+"other rooms, re-threshold",3.0,0.9611,0.0,0.7284,ROBOD,All room sensors,Lecture room 1,LR
+"other rooms, re-threshold",5.0,0.9611,0.0,0.6491,ROBOD,All room sensors,Lecture room 1,LR
+"other rooms, re-threshold",7.0,0.9611,0.0,0.7885,ROBOD,All room sensors,Lecture room 1,LR
+within room,,0.9888,0.0,0.3024,ROBOD,All room sensors,Lecture room 1,RF
+"other rooms, no set-up",0.0,0.9461,0.5091,0.0021,ROBOD,All room sensors,Lecture room 1,RF
+"other rooms, re-threshold",1.0,0.9461,0.0,0.5929,ROBOD,All room sensors,Lecture room 1,RF
+"other rooms, re-threshold",2.0,0.9461,0.0,0.737,ROBOD,All room sensors,Lecture room 1,RF
+"other rooms, re-threshold",3.0,0.9461,0.0,0.7074,ROBOD,All room sensors,Lecture room 1,RF
+"other rooms, re-threshold",5.0,0.9461,0.0,0.6452,ROBOD,All room sensors,Lecture room 1,RF
+"other rooms, re-threshold",7.0,0.9461,0.0,0.6898,ROBOD,All room sensors,Lecture room 1,RF
+within room,,0.9861,0.0296,0.0667,ROBOD,All room sensors,Lecture room 2,LR
+"other rooms, no set-up",0.0,0.9189,0.1537,0.1236,ROBOD,All room sensors,Lecture room 2,LR
+"other rooms, re-threshold",1.0,0.9189,0.5019,0.0049,ROBOD,All room sensors,Lecture room 2,LR
+"other rooms, re-threshold",2.0,0.9189,0.3093,0.013,ROBOD,All room sensors,Lecture room 2,LR
+"other rooms, re-threshold",3.0,0.9189,0.3315,0.0119,ROBOD,All room sensors,Lecture room 2,LR
+"other rooms, re-threshold",5.0,0.9189,0.3444,0.0114,ROBOD,All room sensors,Lecture room 2,LR
+"other rooms, re-threshold",7.0,0.9189,0.3352,0.0119,ROBOD,All room sensors,Lecture room 2,LR
+within room,,0.9631,0.0259,0.1046,ROBOD,All room sensors,Lecture room 2,RF
+"other rooms, no set-up",0.0,0.8784,0.0481,0.2157,ROBOD,All room sensors,Lecture room 2,RF
+"other rooms, re-threshold",1.0,0.8784,0.0093,0.265,ROBOD,All room sensors,Lecture room 2,RF
+"other rooms, re-threshold",2.0,0.8784,0.0093,0.2889,ROBOD,All room sensors,Lecture room 2,RF
+"other rooms, re-threshold",3.0,0.8784,0.0037,0.3176,ROBOD,All room sensors,Lecture room 2,RF
+"other rooms, re-threshold",5.0,0.8784,0.0037,0.3182,ROBOD,All room sensors,Lecture room 2,RF
+"other rooms, re-threshold",7.0,0.8784,0.0037,0.3182,ROBOD,All room sensors,Lecture room 2,RF
+within room,,0.9796,0.0155,0.07,ROBOD,All room sensors,Office (admin),LR
+"other rooms, no set-up",0.0,0.9765,0.2354,0.0279,ROBOD,All room sensors,Office (admin),LR
+"other rooms, re-threshold",1.0,0.9765,0.0103,0.1481,ROBOD,All room sensors,Office (admin),LR
+"other rooms, re-threshold",2.0,0.9765,0.0091,0.1481,ROBOD,All room sensors,Office (admin),LR
+"other rooms, re-threshold",3.0,0.9765,0.0026,0.2014,ROBOD,All room sensors,Office (admin),LR
+"other rooms, re-threshold",5.0,0.9765,0.0026,0.2299,ROBOD,All room sensors,Office (admin),LR
+"other rooms, re-threshold",7.0,0.9765,0.0013,0.3129,ROBOD,All room sensors,Office (admin),LR
+within room,,0.9866,0.0065,0.1623,ROBOD,All room sensors,Office (admin),RF
+"other rooms, no set-up",0.0,0.9404,0.2458,0.0613,ROBOD,All room sensors,Office (admin),RF
+"other rooms, re-threshold",1.0,0.9404,0.0427,0.2608,ROBOD,All room sensors,Office (admin),RF
+"other rooms, re-threshold",2.0,0.9404,0.1889,0.0849,ROBOD,All room sensors,Office (admin),RF
+"other rooms, re-threshold",3.0,0.9404,0.0918,0.2051,ROBOD,All room sensors,Office (admin),RF
+"other rooms, re-threshold",5.0,0.9404,0.0957,0.1952,ROBOD,All room sensors,Office (admin),RF
+"other rooms, re-threshold",7.0,0.9404,0.0854,0.2119,ROBOD,All room sensors,Office (admin),RF
+within room,,0.8732,0.0231,0.285,ROBOD,All room sensors,Office (research),LR
+"other rooms, no set-up",0.0,0.882,0.0004,0.6478,ROBOD,All room sensors,Office (research),LR
+"other rooms, re-threshold",1.0,0.882,0.6497,0.0728,ROBOD,All room sensors,Office (research),LR
+"other rooms, re-threshold",2.0,0.882,0.1582,0.1987,ROBOD,All room sensors,Office (research),LR
+"other rooms, re-threshold",3.0,0.882,0.159,0.198,ROBOD,All room sensors,Office (research),LR
+"other rooms, re-threshold",5.0,0.882,0.1172,0.2214,ROBOD,All room sensors,Office (research),LR
+"other rooms, re-threshold",7.0,0.882,0.0674,0.261,ROBOD,All room sensors,Office (research),LR
+within room,,0.9053,0.0171,0.227,ROBOD,All room sensors,Office (research),RF
+"other rooms, no set-up",0.0,0.8956,0.0223,0.2772,ROBOD,All room sensors,Office (research),RF
+"other rooms, re-threshold",1.0,0.8956,0.153,0.1825,ROBOD,All room sensors,Office (research),RF
+"other rooms, re-threshold",2.0,0.8956,0.0984,0.1994,ROBOD,All room sensors,Office (research),RF
+"other rooms, re-threshold",3.0,0.8956,0.1092,0.1938,ROBOD,All room sensors,Office (research),RF
+"other rooms, re-threshold",5.0,0.8956,0.0391,0.232,ROBOD,All room sensors,Office (research),RF
+"other rooms, re-threshold",7.0,0.8956,0.0247,0.2645,ROBOD,All room sensors,Office (research),RF
+within room,,0.9499,0.0105,0.1145,ROBOD,All room sensors,Library,LR
+"other rooms, no set-up",0.0,0.9444,0.0105,0.202,ROBOD,All room sensors,Library,LR
+"other rooms, re-threshold",1.0,0.9444,0.1329,0.0937,ROBOD,All room sensors,Library,LR
+"other rooms, re-threshold",2.0,0.9444,0.1178,0.0958,ROBOD,All room sensors,Library,LR
+"other rooms, re-threshold",3.0,0.9444,0.0,0.2678,ROBOD,All room sensors,Library,LR
+"other rooms, re-threshold",5.0,0.9444,0.0105,0.2028,ROBOD,All room sensors,Library,LR
+"other rooms, re-threshold",7.0,0.9444,0.0125,0.1899,ROBOD,All room sensors,Library,LR
+within room,,0.9465,0.0132,0.1274,ROBOD,All room sensors,Library,RF
+"other rooms, no set-up",0.0,0.8814,0.5349,0.092,ROBOD,All room sensors,Library,RF
+"other rooms, re-threshold",1.0,0.8814,0.1493,0.2312,ROBOD,All room sensors,Library,RF
+"other rooms, re-threshold",2.0,0.8814,0.2211,0.2028,ROBOD,All room sensors,Library,RF
+"other rooms, re-threshold",3.0,0.8814,0.0171,0.3748,ROBOD,All room sensors,Library,RF
+"other rooms, re-threshold",5.0,0.8814,0.0289,0.3107,ROBOD,All room sensors,Library,RF
+"other rooms, re-threshold",7.0,0.8814,0.0132,0.3869,ROBOD,All room sensors,Library,RF
+within room,,0.9675,0.0,0.2381,ROBOD,All room sensors + building meters,Lecture room 1,LR
+"other rooms, no set-up",0.0,0.9676,0.1636,0.0163,ROBOD,All room sensors + building meters,Lecture room 1,LR
+"other rooms, re-threshold",1.0,0.9676,0.0909,0.1913,ROBOD,All room sensors + building meters,Lecture room 1,LR
+"other rooms, re-threshold",2.0,0.9676,0.0182,0.2982,ROBOD,All room sensors + building meters,Lecture room 1,LR
+"other rooms, re-threshold",3.0,0.9676,0.0,0.4427,ROBOD,All room sensors + building meters,Lecture room 1,LR
+"other rooms, re-threshold",5.0,0.9676,0.0,0.4311,ROBOD,All room sensors + building meters,Lecture room 1,LR
+"other rooms, re-threshold",7.0,0.9676,0.0,0.5792,ROBOD,All room sensors + building meters,Lecture room 1,LR
+within room,,0.9827,0.0182,0.2025,ROBOD,All room sensors + building meters,Lecture room 1,RF
+"other rooms, no set-up",0.0,0.9622,0.1273,0.1622,ROBOD,All room sensors + building meters,Lecture room 1,RF
+"other rooms, re-threshold",1.0,0.9622,0.0364,0.2334,ROBOD,All room sensors + building meters,Lecture room 1,RF
+"other rooms, re-threshold",2.0,0.9622,0.0,0.3089,ROBOD,All room sensors + building meters,Lecture room 1,RF
+"other rooms, re-threshold",3.0,0.9622,0.0,0.3067,ROBOD,All room sensors + building meters,Lecture room 1,RF
+"other rooms, re-threshold",5.0,0.9622,0.0,0.329,ROBOD,All room sensors + building meters,Lecture room 1,RF
+"other rooms, re-threshold",7.0,0.9622,0.0,0.3531,ROBOD,All room sensors + building meters,Lecture room 1,RF
+within room,,0.9856,0.0241,0.0829,ROBOD,All room sensors + building meters,Lecture room 2,LR
+"other rooms, no set-up",0.0,0.9097,0.2167,0.064,ROBOD,All room sensors + building meters,Lecture room 2,LR
+"other rooms, re-threshold",1.0,0.9097,0.7315,0.0011,ROBOD,All room sensors + building meters,Lecture room 2,LR
+"other rooms, re-threshold",2.0,0.9097,0.4648,0.007,ROBOD,All room sensors + building meters,Lecture room 2,LR
+"other rooms, re-threshold",3.0,0.9097,0.4648,0.007,ROBOD,All room sensors + building meters,Lecture room 2,LR
+"other rooms, re-threshold",5.0,0.9097,0.4704,0.006,ROBOD,All room sensors + building meters,Lecture room 2,LR
+"other rooms, re-threshold",7.0,0.9097,0.4944,0.0049,ROBOD,All room sensors + building meters,Lecture room 2,LR
+within room,,0.9832,0.0741,0.0298,ROBOD,All room sensors + building meters,Lecture room 2,RF
+"other rooms, no set-up",0.0,0.9078,0.0463,0.2081,ROBOD,All room sensors + building meters,Lecture room 2,RF
+"other rooms, re-threshold",1.0,0.9078,0.0296,0.2152,ROBOD,All room sensors + building meters,Lecture room 2,RF
+"other rooms, re-threshold",2.0,0.9078,0.0185,0.2228,ROBOD,All room sensors + building meters,Lecture room 2,RF
+"other rooms, re-threshold",3.0,0.9078,0.0,0.2585,ROBOD,All room sensors + building meters,Lecture room 2,RF
+"other rooms, re-threshold",5.0,0.9078,0.0,0.2585,ROBOD,All room sensors + building meters,Lecture room 2,RF
+"other rooms, re-threshold",7.0,0.9078,0.0,0.258,ROBOD,All room sensors + building meters,Lecture room 2,RF
+within room,,0.9787,0.0168,0.0682,ROBOD,All room sensors + building meters,Office (admin),LR
+"other rooms, no set-up",0.0,0.9783,0.4748,0.0167,ROBOD,All room sensors + building meters,Office (admin),LR
+"other rooms, re-threshold",1.0,0.9783,0.0142,0.1041,ROBOD,All room sensors + building meters,Office (admin),LR
+"other rooms, re-threshold",2.0,0.9783,0.0129,0.1109,ROBOD,All room sensors + building meters,Office (admin),LR
+"other rooms, re-threshold",3.0,0.9783,0.0103,0.1382,ROBOD,All room sensors + building meters,Office (admin),LR
+"other rooms, re-threshold",5.0,0.9783,0.0091,0.1561,ROBOD,All room sensors + building meters,Office (admin),LR
+"other rooms, re-threshold",7.0,0.9783,0.0013,0.2491,ROBOD,All room sensors + building meters,Office (admin),LR
+within room,,0.9866,0.0078,0.1326,ROBOD,All room sensors + building meters,Office (admin),RF
+"other rooms, no set-up",0.0,0.9606,0.1371,0.0923,ROBOD,All room sensors + building meters,Office (admin),RF
+"other rooms, re-threshold",1.0,0.9606,0.0026,0.2156,ROBOD,All room sensors + building meters,Office (admin),RF
+"other rooms, re-threshold",2.0,0.9606,0.0259,0.1636,ROBOD,All room sensors + building meters,Office (admin),RF
+"other rooms, re-threshold",3.0,0.9606,0.0207,0.1704,ROBOD,All room sensors + building meters,Office (admin),RF
+"other rooms, re-threshold",5.0,0.9606,0.0375,0.158,ROBOD,All room sensors + building meters,Office (admin),RF
+"other rooms, re-threshold",7.0,0.9606,0.0065,0.1939,ROBOD,All room sensors + building meters,Office (admin),RF
+within room,,0.874,0.0231,0.2843,ROBOD,All room sensors + building meters,Office (research),LR
+"other rooms, no set-up",0.0,0.8618,0.0,1.0,ROBOD,All room sensors + building meters,Office (research),LR
+"other rooms, re-threshold",1.0,0.8618,0.2826,0.1902,ROBOD,All room sensors + building meters,Office (research),LR
+"other rooms, re-threshold",2.0,0.8618,0.0765,0.389,ROBOD,All room sensors + building meters,Office (research),LR
+"other rooms, re-threshold",3.0,0.8618,0.0721,0.3904,ROBOD,All room sensors + building meters,Office (research),LR
+"other rooms, re-threshold",5.0,0.8618,0.049,0.4066,ROBOD,All room sensors + building meters,Office (research),LR
+"other rooms, re-threshold",7.0,0.8618,0.0104,0.4385,ROBOD,All room sensors + building meters,Office (research),LR
+within room,,0.9054,0.0171,0.2249,ROBOD,All room sensors + building meters,Office (research),RF
+"other rooms, no set-up",0.0,0.8398,0.0139,0.3048,ROBOD,All room sensors + building meters,Office (research),RF
+"other rooms, re-threshold",1.0,0.8398,0.1897,0.2242,ROBOD,All room sensors + building meters,Office (research),RF
+"other rooms, re-threshold",2.0,0.8398,0.1248,0.2383,ROBOD,All room sensors + building meters,Office (research),RF
+"other rooms, re-threshold",3.0,0.8398,0.1156,0.239,ROBOD,All room sensors + building meters,Office (research),RF
+"other rooms, re-threshold",5.0,0.8398,0.0534,0.2673,ROBOD,All room sensors + building meters,Office (research),RF
+"other rooms, re-threshold",7.0,0.8398,0.0458,0.2723,ROBOD,All room sensors + building meters,Office (research),RF
+within room,,0.9573,0.0263,0.092,ROBOD,All room sensors + building meters,Library,LR
+"other rooms, no set-up",0.0,0.9459,0.0105,0.1849,ROBOD,All room sensors + building meters,Library,LR
+"other rooms, re-threshold",1.0,0.9459,0.1553,0.0887,ROBOD,All room sensors + building meters,Library,LR
+"other rooms, re-threshold",2.0,0.9459,0.1171,0.0966,ROBOD,All room sensors + building meters,Library,LR
+"other rooms, re-threshold",3.0,0.9459,0.0013,0.2307,ROBOD,All room sensors + building meters,Library,LR
+"other rooms, re-threshold",5.0,0.9459,0.0145,0.1674,ROBOD,All room sensors + building meters,Library,LR
+"other rooms, re-threshold",7.0,0.9459,0.0158,0.1603,ROBOD,All room sensors + building meters,Library,LR
+within room,,0.9645,0.0132,0.11,ROBOD,All room sensors + building meters,Library,RF
+"other rooms, no set-up",0.0,0.9182,0.527,0.0775,ROBOD,All room sensors + building meters,Library,RF
+"other rooms, re-threshold",1.0,0.9182,0.5257,0.0787,ROBOD,All room sensors + building meters,Library,RF
+"other rooms, re-threshold",2.0,0.9182,0.4836,0.092,ROBOD,All room sensors + building meters,Library,RF
+"other rooms, re-threshold",3.0,0.9182,0.0171,0.2341,ROBOD,All room sensors + building meters,Library,RF
+"other rooms, re-threshold",5.0,0.9182,0.0263,0.2199,ROBOD,All room sensors + building meters,Library,RF
+"other rooms, re-threshold",7.0,0.9182,0.0158,0.2416,ROBOD,All room sensors + building meters,Library,RF
+within room,,0.9448,0.0,0.2445,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+"other rooms, no set-up",0.0,0.9563,0.4,0.0159,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+"other rooms, re-threshold",1.0,0.9563,0.0364,0.2312,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+"other rooms, re-threshold",2.0,0.9563,0.0,0.3737,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+"other rooms, re-threshold",3.0,0.9563,0.0,0.5667,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+"other rooms, re-threshold",5.0,0.9563,0.0,0.5242,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+"other rooms, re-threshold",7.0,0.9563,0.0,0.8155,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,LR
+within room,,0.8994,0.0182,0.4281,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+"other rooms, no set-up",0.0,0.8262,0.4727,0.0283,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+"other rooms, re-threshold",1.0,0.8262,0.1273,0.686,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+"other rooms, re-threshold",2.0,0.8262,0.0,1.0,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+"other rooms, re-threshold",3.0,0.8262,0.0,1.0,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+"other rooms, re-threshold",5.0,0.8262,0.0,1.0,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+"other rooms, re-threshold",7.0,0.8262,0.0,1.0,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 1,RF
+within room,,0.9814,0.0537,0.0678,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+"other rooms, no set-up",0.0,0.9789,0.0537,0.0808,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+"other rooms, re-threshold",1.0,0.9789,0.0537,0.0764,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+"other rooms, re-threshold",2.0,0.9789,0.05,0.0959,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+"other rooms, re-threshold",3.0,0.9789,0.0148,0.3789,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+"other rooms, re-threshold",5.0,0.9789,0.0148,0.3816,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+"other rooms, re-threshold",7.0,0.9789,0.0167,0.3767,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,LR
+within room,,0.9589,0.037,0.1154,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+"other rooms, no set-up",0.0,0.9546,0.0278,0.3615,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+"other rooms, re-threshold",1.0,0.9546,0.0796,0.1154,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+"other rooms, re-threshold",2.0,0.9546,0.0333,0.3019,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+"other rooms, re-threshold",3.0,0.9546,0.0111,0.6558,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+"other rooms, re-threshold",5.0,0.9546,0.0111,0.6352,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+"other rooms, re-threshold",7.0,0.9546,0.0111,0.6325,ROBOD,No light: CO2 + Wi-Fi + sound,Lecture room 2,RF
+within room,,0.9577,0.3092,0.0304,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+"other rooms, no set-up",0.0,0.9295,0.5162,0.0341,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+"other rooms, re-threshold",1.0,0.9295,0.2445,0.1183,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+"other rooms, re-threshold",2.0,0.9295,0.2419,0.1183,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+"other rooms, re-threshold",3.0,0.9295,0.0168,0.3172,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+"other rooms, re-threshold",5.0,0.9295,0.0246,0.267,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+"other rooms, re-threshold",7.0,0.9295,0.022,0.2819,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),LR
+within room,,0.9153,0.2613,0.044,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+"other rooms, no set-up",0.0,0.734,0.3389,0.2571,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+"other rooms, re-threshold",1.0,0.734,0.0608,0.904,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+"other rooms, re-threshold",2.0,0.734,0.0789,0.8903,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+"other rooms, re-threshold",3.0,0.734,0.0479,0.9201,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+"other rooms, re-threshold",5.0,0.734,0.0621,0.9027,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+"other rooms, re-threshold",7.0,0.734,0.0699,0.8953,ROBOD,No light: CO2 + Wi-Fi + sound,Office (admin),RF
+within room,,0.7946,0.5058,0.1223,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+"other rooms, no set-up",0.0,0.7184,0.0,1.0,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+"other rooms, re-threshold",1.0,0.7184,0.2304,0.4618,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+"other rooms, re-threshold",2.0,0.7184,0.0741,0.9151,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+"other rooms, re-threshold",3.0,0.7184,0.0765,0.9116,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+"other rooms, re-threshold",5.0,0.7184,0.0909,0.8812,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+"other rooms, re-threshold",7.0,0.7184,0.0925,0.8791,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),LR
+within room,,0.7693,0.338,0.2348,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+"other rooms, no set-up",0.0,0.794,0.0869,0.483,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+"other rooms, re-threshold",1.0,0.794,0.0678,0.575,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+"other rooms, re-threshold",2.0,0.794,0.0482,0.6952,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+"other rooms, re-threshold",3.0,0.794,0.0674,0.5771,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+"other rooms, re-threshold",5.0,0.794,0.0614,0.6011,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+"other rooms, re-threshold",7.0,0.794,0.0694,0.558,ROBOD,No light: CO2 + Wi-Fi + sound,Office (research),RF
+within room,,0.9425,0.0421,0.097,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+"other rooms, no set-up",0.0,0.819,0.6724,0.0521,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+"other rooms, re-threshold",1.0,0.819,0.5605,0.0816,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+"other rooms, re-threshold",2.0,0.819,0.5513,0.0833,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+"other rooms, re-threshold",3.0,0.819,0.2822,0.284,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+"other rooms, re-threshold",5.0,0.819,0.1447,0.3911,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+"other rooms, re-threshold",7.0,0.819,0.1257,0.4069,ROBOD,No light: CO2 + Wi-Fi + sound,Library,LR
+within room,,0.94,0.0461,0.1245,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+"other rooms, no set-up",0.0,0.4861,0.6013,0.307,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+"other rooms, re-threshold",1.0,0.4861,0.4,0.7359,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+"other rooms, re-threshold",2.0,0.4861,0.3526,0.7913,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+"other rooms, re-threshold",3.0,0.4861,0.3579,0.7813,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+"other rooms, re-threshold",5.0,0.4861,0.0329,0.9967,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+"other rooms, re-threshold",7.0,0.4861,0.0428,0.9946,ROBOD,No light: CO2 + Wi-Fi + sound,Library,RF
+within room (Dec -> Jan),,0.9954,0.6259,0.0,Room B,Light + CO2 + temperature (original),Room B,LR
+within room (Dec -> Jan),,0.991,0.6259,0.0,Room B,Light + CO2 + temperature (original),Room B,RF
+within room (Dec -> Jan),,0.9992,0.6259,0.0,Room B,Light + CO2 + temperature + PIR,Room B,LR
+within room (Dec -> Jan),,0.9994,0.6259,0.0,Room B,Light + CO2 + temperature + PIR,Room B,RF
+within room (Dec -> Jan),,0.9999,0.5986,0.0,Room B,"All sensors (+ PIR, sound, CO2 slope)",Room B,LR
+within room (Dec -> Jan),,0.9996,0.6259,0.0,Room B,"All sensors (+ PIR, sound, CO2 slope)",Room B,RF
+within room (Dec -> Jan),,0.9967,0.0374,0.0086,Room B,No light: CO2 + PIR + sound,Room B,LR
+within room (Dec -> Jan),,0.9969,0.0034,0.0697,Room B,No light: CO2 + PIR + sound,Room B,RF

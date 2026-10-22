@@ -1,0 +1,10 @@
+scenario,condition,sensor_false_vacant,sensor_outage,recovered_pct,wrongful_per100,displaced_per100,futile_per100
+"original sensors, own room",Check-in release + FCFS,0.02,0.169,12.819,16.91,0.309,4.638
+"original sensors, own room",ML + Sensing + DRF (SSBF),0.02,0.169,13.116,11.199,1.015,2.345
+"original sensors, own room",SSBF + extended redistribution,0.02,0.169,19.991,11.199,1.47,2.982
+"all sensors + meters, own room",Check-in release + FCFS,0.023,0.092,12.819,16.91,0.309,4.638
+"all sensors + meters, own room",ML + Sensing + DRF (SSBF),0.023,0.092,13.833,12.487,1.059,2.562
+"all sensors + meters, own room",SSBF + extended redistribution,0.023,0.092,21.195,12.487,1.547,3.209
+"all room sensors, new room, 3-day re-threshold",Check-in release + FCFS,0.003,0.201,12.819,16.91,0.309,4.638
+"all room sensors, new room, 3-day re-threshold",ML + Sensing + DRF (SSBF),0.003,0.201,12.798,9.51,0.997,1.898
+"all room sensors, new room, 3-day re-threshold",SSBF + extended redistribution,0.003,0.201,19.476,9.51,1.434,2.417

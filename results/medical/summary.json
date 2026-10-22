@@ -1,0 +1,37 @@
+{
+  "n_rows": 110521,
+  "n_noshow": 22314,
+  "noshow_rate": 0.2018982817745044,
+  "n_patients": 62298,
+  "features_numeric": [
+    "lead_days",
+    "age",
+    "sched_hour",
+    "scholarship",
+    "hypertension",
+    "diabetes",
+    "alcoholism",
+    "handicap",
+    "prior_appts",
+    "prior_noshows",
+    "prior_noshow_rate",
+    "is_female"
+  ],
+  "features_categorical": [
+    "sched_weekday",
+    "appt_weekday"
+  ],
+  "excluded": {
+    "SMS_received": "reminder sent after booking (only for longer lead times), not known at creation",
+    "Neighbourhood": "location identifier (81 levels); excluded so features stay transferable",
+    "PatientId / AppointmentID": "identifiers (PatientId used only for grouping and history)"
+  },
+  "temporal_split": {
+    "cut": "2016-05-20",
+    "train_n": 63532,
+    "test_n": 46989,
+    "train_rate": 0.2094692438456211,
+    "test_rate": 0.19166187831194534
+  },
+  "runtime_sec": 15.2
+}

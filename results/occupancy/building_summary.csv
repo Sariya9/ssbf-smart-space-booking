@@ -1,0 +1,19 @@
+features,setting,auc_median,auc_min,auc_max,fv_median,fv_max,mv_median
+Light + CO2 + temperature,within room,0.948,0.858,0.992,0.02,0.454,0.169
+Light + CO2 + temperature,"leave-one-room-out, raw",0.932,0.822,0.954,0.203,0.751,0.11
+Light + CO2 + temperature,"leave-one-room-out, calibrated",0.871,0.792,0.977,0.169,0.429,0.133
+Light + CO2 + temperature,"UCI office -> room, raw",0.937,0.778,0.978,0.999,1.0,0.0
+Light + CO2 + temperature,"UCI office -> room, calibrated",0.944,0.797,0.979,0.5,0.649,0.03
+Light + CO2 + temperature,"ROBOD building -> UCI office, raw",0.901,0.901,0.901,0.0,0.0,1.0
+CO2 + temperature (no light),within room,0.902,0.753,0.954,0.224,0.533,0.164
+CO2 + temperature (no light),"leave-one-room-out, raw",0.76,0.629,0.825,0.43,0.818,0.232
+CO2 + temperature (no light),"leave-one-room-out, calibrated",0.805,0.446,0.877,0.181,0.628,0.332
+CO2 + temperature (no light),"UCI office -> room, raw",0.381,0.224,0.774,0.0,0.361,1.0
+CO2 + temperature (no light),"UCI office -> room, calibrated",0.589,0.44,0.782,0.56,0.599,0.31
+CO2 + temperature (no light),"ROBOD building -> UCI office, raw",0.722,0.722,0.722,0.0,0.0,1.0
+Wi-Fi devices only,within room,0.723,0.6,0.928,0.585,0.713,0.174
+Wi-Fi devices only,"leave-one-room-out, raw",0.768,0.692,0.799,0.432,0.714,0.031
+Wi-Fi devices only,"leave-one-room-out, calibrated",0.768,0.692,0.799,0.389,0.472,0.168
+Environmental + Wi-Fi,within room,0.972,0.898,0.991,0.023,0.1,0.134
+Environmental + Wi-Fi,"leave-one-room-out, raw",0.935,0.876,0.952,0.329,0.496,0.064
+Environmental + Wi-Fi,"leave-one-room-out, calibrated",0.891,0.837,0.976,0.151,0.412,0.108

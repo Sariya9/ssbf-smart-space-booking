@@ -1,0 +1,50 @@
+{
+  "n_rows": 76373,
+  "n_noshow": 1207,
+  "noshow_rate": 0.015804014507744883,
+  "features_numeric": [
+    "lead_time",
+    "arrival_date_week_number",
+    "arrival_date_day_of_month",
+    "arrival_month",
+    "stays_in_weekend_nights",
+    "stays_in_week_nights",
+    "adults",
+    "children",
+    "babies",
+    "is_repeated_guest",
+    "previous_cancellations",
+    "previous_bookings_not_canceled",
+    "adr"
+  ],
+  "features_categorical": [
+    "hotel",
+    "meal",
+    "market_segment",
+    "distribution_channel",
+    "reserved_room_type",
+    "deposit_type",
+    "customer_type"
+  ],
+  "excluded": {
+    "is_canceled": "target-derived",
+    "reservation_status": "outcome (encodes the label)",
+    "reservation_status_date": "outcome date (set when the booking is resolved)",
+    "assigned_room_type": "assigned at check-in, after the prediction point",
+    "booking_changes": "accumulates between creation and arrival, not known at creation",
+    "days_in_waiting_list": "accumulates after the booking is submitted",
+    "required_car_parking_spaces": "typically recorded at arrival; non-zero almost only for arrivals",
+    "total_of_special_requests": "can be added or changed after creation",
+    "country": "often completed at check-in in the source data (Antonio et al., 2019)",
+    "agent": "identifier (334 levels), not a behavioural feature",
+    "company": "identifier, 94% missing",
+    "arrival_date_year": "calendar year; would not transfer to a new deployment period"
+  },
+  "temporal_split": {
+    "train_n": 51083,
+    "test_n": 25290,
+    "train_rate": 0.016815770412857506,
+    "test_rate": 0.01376037959667853
+  },
+  "runtime_sec": 26.5
+}

@@ -1,0 +1,28 @@
+{
+  "Lecture room 1": {
+    "n": 8338,
+    "occupied": 0.211,
+    "days": 29
+  },
+  "Lecture room 2": {
+    "n": 8322,
+    "occupied": 0.284,
+    "days": 29
+  },
+  "Office (admin)": {
+    "n": 8339,
+    "occupied": 0.4,
+    "days": 29
+  },
+  "Office (research)": {
+    "n": 13523,
+    "occupied": 0.652,
+    "days": 47
+  },
+  "Library": {
+    "n": 13521,
+    "occupied": 0.426,
+    "days": 47
+  },
+  "env_clock_corrected": false
+}

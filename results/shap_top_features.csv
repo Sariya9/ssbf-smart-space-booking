@@ -1,0 +1,21 @@
+domain,feature,mean_abs_shap
+Hotel,lead_time,0.06039
+Hotel,adr,0.04844
+Hotel,arrival_date_day_of_month,0.03896
+Hotel,hotel_City Hotel,0.03223
+Hotel,arrival_date_week_number,0.03158
+Hotel,stays_in_week_nights,0.03089
+Hotel,hotel_Resort Hotel,0.02656
+Hotel,arrival_month,0.02574
+Hotel,stays_in_weekend_nights,0.0214
+Hotel,adults,0.02051
+Medical,lead_days,0.14465
+Medical,age,0.03926
+Medical,sched_hour,0.01895
+Medical,prior_noshow_rate,0.01704
+Medical,prior_appts,0.01502
+Medical,scholarship,0.00682
+Medical,is_female,0.00645
+Medical,hypertension,0.00568
+Medical,appt_weekday_Monday,0.0056
+Medical,prior_noshows,0.0051

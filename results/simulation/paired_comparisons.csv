@@ -1,0 +1,97 @@
+metric,comparison,n_reps,mean_diff,ci_low,ci_high,t,p,cohens_dz
+utilisation,Sensing + DRF vs No release,30,3.11381,3.0004,3.22722,56.15411,0.0,10.25229
+recovered_pct,Sensing + DRF vs No release,30,13.94026,13.56696,14.31357,76.37467,0.0,13.94404
+jfi_alloc,Sensing + DRF vs No release,30,0.01349,0.01247,0.01452,26.84856,0.0,4.90185
+jfi_satisfaction,Sensing + DRF vs No release,30,0.0111,0.01004,0.01215,21.48103,0.0,3.92188
+sat_tier_gap,Sensing + DRF vs No release,30,0.01642,0.00927,0.02357,4.69666,6e-05,0.85749
+wrongful_per100,Sensing + DRF vs No release,30,11.47461,11.30224,11.64698,136.15129,0.0,24.85771
+displaced_per100,Sensing + DRF vs No release,30,0.9901,0.9359,1.0443,37.36093,0.0,6.82114
+lost_per100,Sensing + DRF vs No release,30,0.9901,0.9359,1.0443,37.36093,0.0,6.82114
+utilisation,Sensing + DRF vs Check-in release + FCFS,30,0.25078,0.22815,0.27342,22.65962,0.0,4.13706
+recovered_pct,Sensing + DRF vs Check-in release + FCFS,30,1.1214,1.0258,1.217,23.9915,0.0,4.38023
+jfi_alloc,Sensing + DRF vs Check-in release + FCFS,30,0.00944,0.00887,0.01001,33.85727,0.0,6.18146
+jfi_satisfaction,Sensing + DRF vs Check-in release + FCFS,30,0.00203,0.00164,0.00242,10.65044,0.0,1.9445
+sat_tier_gap,Sensing + DRF vs Check-in release + FCFS,30,0.00582,0.00249,0.00914,3.57521,0.00125,0.65274
+wrongful_per100,Sensing + DRF vs Check-in release + FCFS,30,-5.43514,-5.61954,-5.25074,-60.2831,0.0,-11.00614
+displaced_per100,Sensing + DRF vs Check-in release + FCFS,30,0.68135,0.64715,0.71556,40.74536,0.0,7.43905
+lost_per100,Sensing + DRF vs Check-in release + FCFS,30,0.68135,0.64715,0.71556,40.74536,0.0,7.43905
+utilisation,Sensing + DRF vs Sensing + FCFS,30,-0.0301,-0.04533,-0.01487,-4.04237,0.00036,-0.73803
+recovered_pct,Sensing + DRF vs Sensing + FCFS,30,-0.13445,-0.20417,-0.06472,-3.94352,0.00047,-0.71998
+jfi_alloc,Sensing + DRF vs Sensing + FCFS,30,0.00909,0.00841,0.00976,27.4915,0.0,5.01924
+jfi_satisfaction,Sensing + DRF vs Sensing + FCFS,30,0.00178,0.00143,0.00213,10.42245,0.0,1.90287
+sat_tier_gap,Sensing + DRF vs Sensing + FCFS,30,0.00581,0.00292,0.0087,4.10664,0.0003,0.74977
+wrongful_per100,Sensing + DRF vs Sensing + FCFS,30,0.0,0.0,0.0,,,
+displaced_per100,Sensing + DRF vs Sensing + FCFS,30,-0.01834,-0.04609,0.00942,-1.35129,0.18705,-0.24671
+lost_per100,Sensing + DRF vs Sensing + FCFS,30,-0.01834,-0.04609,0.00942,-1.35129,0.18705,-0.24671
+utilisation,Sensing + DRF vs Sensing + WFQ,30,-0.01782,-0.02242,-0.01322,-7.92542,0.0,-1.44698
+recovered_pct,Sensing + DRF vs Sensing + WFQ,30,-0.07968,-0.10028,-0.05908,-7.91088,0.0,-1.44432
+jfi_alloc,Sensing + DRF vs Sensing + WFQ,30,-0.00051,-0.00063,-0.00039,-8.74572,0.0,-1.59674
+jfi_satisfaction,Sensing + DRF vs Sensing + WFQ,30,-0.00019,-0.0003,-9e-05,-3.66264,0.00099,-0.6687
+sat_tier_gap,Sensing + DRF vs Sensing + WFQ,30,0.00491,0.00332,0.00649,6.32854,0.0,1.15543
+wrongful_per100,Sensing + DRF vs Sensing + WFQ,30,0.0,0.0,0.0,,,
+displaced_per100,Sensing + DRF vs Sensing + WFQ,30,-0.02114,-0.03106,-0.01122,-4.35954,0.00015,-0.79594
+lost_per100,Sensing + DRF vs Sensing + WFQ,30,-0.02114,-0.03106,-0.01122,-4.35954,0.00015,-0.79594
+utilisation,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,0.10836,0.10164,0.11508,32.99201,0.0,6.02349
+recovered_pct,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,0.48493,0.45833,0.51152,37.29685,0.0,6.80944
+jfi_alloc,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,5e-05,-5e-05,0.00015,0.96155,0.34423,0.17555
+jfi_satisfaction,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,-3e-05,-0.00014,8e-05,-0.60689,0.54865,-0.1108
+sat_tier_gap,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,0.0003,-0.00041,0.00101,0.859,0.39739,0.15683
+wrongful_per100,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,0.38031,0.35139,0.40922,26.90231,0.0,4.91167
+displaced_per100,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,0.10713,0.09456,0.11971,17.42395,0.0,3.18116
+lost_per100,ML + Sensing + DRF (SSBF) vs Sensing + DRF,30,0.10713,0.09456,0.11971,17.42395,0.0,3.18116
+utilisation,ML + Sensing + DRF (SSBF) vs No release,30,3.22217,3.10649,3.33786,56.96515,0.0,10.40037
+recovered_pct,ML + Sensing + DRF (SSBF) vs No release,30,14.42519,14.05005,14.80034,78.64387,0.0,14.35834
+jfi_alloc,ML + Sensing + DRF (SSBF) vs No release,30,0.01354,0.01254,0.01454,27.67817,0.0,5.05332
+jfi_satisfaction,ML + Sensing + DRF (SSBF) vs No release,30,0.01106,0.01001,0.01212,21.40792,0.0,3.90853
+sat_tier_gap,ML + Sensing + DRF (SSBF) vs No release,30,0.01672,0.00953,0.0239,4.75835,5e-05,0.86875
+wrongful_per100,ML + Sensing + DRF (SSBF) vs No release,30,11.85491,11.68224,12.02759,140.41586,0.0,25.63631
+displaced_per100,ML + Sensing + DRF (SSBF) vs No release,30,1.09724,1.04089,1.15358,39.82914,0.0,7.27177
+lost_per100,ML + Sensing + DRF (SSBF) vs No release,30,1.09724,1.04089,1.15358,39.82914,0.0,7.27177
+utilisation,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-1.8006,-1.88852,-1.71268,-41.88663,0.0,-7.64742
+recovered_pct,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-8.06663,-8.42234,-7.71092,-46.38069,0.0,-8.46792
+jfi_alloc,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-0.00442,-0.00533,-0.0035,-9.86561,0.0,-1.80121
+jfi_satisfaction,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-0.00552,-0.00638,-0.00467,-13.21186,0.0,-2.41215
+sat_tier_gap,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-0.00452,-0.00916,0.00012,-1.99364,0.05567,-0.36399
+wrongful_per100,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-1.88237,-2.09571,-1.66904,-18.04642,0.0,-3.29481
+displaced_per100,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-0.61635,-0.67107,-0.56163,-23.03719,0.0,-4.206
+lost_per100,ML only + DRF vs ML + Sensing + DRF (SSBF),30,-0.61635,-0.67107,-0.56163,-23.03719,0.0,-4.206
+utilisation,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,0.39957,0.38216,0.41698,46.93301,0.0,8.56876
+recovered_pct,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,1.78889,1.72484,1.85294,57.12636,0.0,10.4298
+jfi_alloc,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,-6e-05,-0.00016,4e-05,-1.22328,0.23107,-0.22334
+jfi_satisfaction,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,3e-05,-8e-05,0.00015,0.62727,0.53539,0.11452
+sat_tier_gap,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,-0.00036,-0.00109,0.00036,-1.02291,0.31481,-0.18676
+wrongful_per100,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,-0.38031,-0.40922,-0.35139,-26.90231,0.0,-4.91167
+displaced_per100,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,-0.10713,-0.11971,-0.09456,-17.42395,0.0,-3.18116
+lost_per100,Oracle ML + Sensing + DRF (upper bound) vs ML + Sensing + DRF (SSBF),30,-0.10713,-0.11971,-0.09456,-17.42395,0.0,-3.18116
+utilisation,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,1.74752,1.69074,1.8043,62.94824,0.0,11.49272
+recovered_pct,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,7.82205,7.66881,7.97528,104.39855,0.0,19.06048
+jfi_alloc,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,0.00068,9e-05,0.00126,2.37684,0.02428,0.43395
+jfi_satisfaction,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,0.00166,0.00124,0.00208,8.05677,0.0,1.47096
+sat_tier_gap,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,0.00484,0.00287,0.00681,5.0174,2e-05,0.91605
+wrongful_per100,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,0.0,0.0,0.0,,,
+displaced_per100,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,0.49432,0.45055,0.5381,23.0958,0.0,4.2167
+lost_per100,SSBF + extended redistribution vs ML + Sensing + DRF (SSBF),30,0.49432,0.45055,0.5381,23.0958,0.0,4.2167
+utilisation,SSBF + extended redistribution vs No release,30,4.96969,4.81665,5.12274,66.4125,0.0,12.12521
+recovered_pct,SSBF + extended redistribution vs No release,30,22.24724,21.85292,22.64155,115.39179,0.0,21.06756
+jfi_alloc,SSBF + extended redistribution vs No release,30,0.01422,0.01297,0.01548,23.18218,0.0,4.23247
+jfi_satisfaction,SSBF + extended redistribution vs No release,30,0.01272,0.01156,0.01389,22.36304,0.0,4.08291
+sat_tier_gap,SSBF + extended redistribution vs No release,30,0.02155,0.01341,0.0297,5.41355,1e-05,0.98837
+wrongful_per100,SSBF + extended redistribution vs No release,30,11.85491,11.68224,12.02759,140.41586,0.0,25.63631
+displaced_per100,SSBF + extended redistribution vs No release,30,1.59156,1.53004,1.65308,52.91156,0.0,9.66029
+lost_per100,SSBF + extended redistribution vs No release,30,1.59156,1.53004,1.65308,52.91156,0.0,9.66029
+utilisation,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,0.1559,0.13706,0.17475,16.91923,0.0,3.08901
+recovered_pct,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,0.69947,0.614,0.78495,16.73655,0.0,3.05566
+jfi_alloc,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,-0.00017,-0.0005,0.00015,-1.08856,0.28531,-0.19874
+jfi_satisfaction,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,6e-05,-0.00022,0.00034,0.44966,0.6563,0.0821
+sat_tier_gap,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,0.00173,0.00032,0.00315,2.50309,0.0182,0.457
+wrongful_per100,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,-5.69696,-5.78853,-5.60539,-127.24045,0.0,-23.23082
+displaced_per100,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,-0.51664,-0.55513,-0.47815,-27.45398,0.0,-5.01239
+lost_per100,SSBF + late-arrival safeguards vs ML + Sensing + DRF (SSBF),30,-0.74731,-0.79022,-0.70441,-35.62223,0.0,-6.5037
+utilisation,SSBF + extended + safeguards vs SSBF + extended redistribution,30,0.18788,0.16465,0.2111,16.54379,0.0,3.02047
+recovered_pct,SSBF + extended + safeguards vs SSBF + extended redistribution,30,0.84528,0.73801,0.95254,16.11717,0.0,2.94258
+jfi_alloc,SSBF + extended + safeguards vs SSBF + extended redistribution,30,0.00011,-0.00029,0.00052,0.58374,0.56391,0.10658
+jfi_satisfaction,SSBF + extended + safeguards vs SSBF + extended redistribution,30,3e-05,-0.00033,0.0004,0.19497,0.84677,0.0356
+sat_tier_gap,SSBF + extended + safeguards vs SSBF + extended redistribution,30,0.00049,-0.00173,0.00271,0.44796,0.65751,0.08179
+wrongful_per100,SSBF + extended + safeguards vs SSBF + extended redistribution,30,-5.69696,-5.78853,-5.60539,-127.24045,0.0,-23.23082
+displaced_per100,SSBF + extended + safeguards vs SSBF + extended redistribution,30,-0.75445,-0.79355,-0.71535,-39.46283,0.0,-7.20489
+lost_per100,SSBF + extended + safeguards vs SSBF + extended redistribution,30,-1.14792,-1.19737,-1.09846,-47.47326,0.0,-8.66739

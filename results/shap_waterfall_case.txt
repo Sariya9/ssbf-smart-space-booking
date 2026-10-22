@@ -1,0 +1,11 @@
+predicted=0.775 base=0.500
+lead_days	value=41.000	shap=+0.1430
+age	value=1.000	shap=+0.0398
+appt_weekday_Monday	value=1.000	shap=+0.0191
+sched_weekday_Tuesday	value=1.000	shap=+0.0141
+sched_hour	value=10.000	shap=+0.0139
+prior_appts	value=0.000	shap=+0.0114
+prior_noshow_rate	value=-1.000	shap=+0.0112
+is_female	value=0.000	shap=-0.0110
+appt_weekday_Thursday	value=0.000	shap=+0.0097
+sched_weekday_Wednesday	value=0.000	shap=+0.0096

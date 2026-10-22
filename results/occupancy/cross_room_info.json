@@ -1,0 +1,13 @@
+{
+  "room_A": {
+    "train": 8143,
+    "test": 9752
+  },
+  "room_B": {
+    "total": 10129,
+    "train_dec": 8084,
+    "test_jan": 2045,
+    "occupied_share": 0.18767894165268043,
+    "days": 7
+  }
+}

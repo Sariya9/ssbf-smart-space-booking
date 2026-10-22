@@ -1,0 +1,231 @@
+method,auc,false_vacancy,missed_vacancy,threshold,features,source,room,k_days,adapt_occupied
+source only,0.9247,0.2364,0.1081,0.5,Light + CO2 + temperature,same building,Lecture room 1,0,0
+baseline-relative (label-free),0.9652,0.0,0.332,0.5,Light + CO2 + temperature,same building,Lecture room 1,0,0
+re-threshold,0.9247,0.0182,0.3668,0.135,Light + CO2 + temperature,same building,Lecture room 1,1,179
+pooled retrain,0.9185,0.2364,0.0867,0.5,Light + CO2 + temperature,same building,Lecture room 1,1,179
+local only,0.9536,0.1636,0.106,0.5,Light + CO2 + temperature,same building,Lecture room 1,1,179
+re-threshold,0.9247,0.0182,0.4762,0.1085,Light + CO2 + temperature,same building,Lecture room 1,2,304
+pooled retrain,0.9307,0.1818,0.1085,0.5,Light + CO2 + temperature,same building,Lecture room 1,2,304
+local only,0.9673,0.0727,0.2372,0.5,Light + CO2 + temperature,same building,Lecture room 1,2,304
+re-threshold,0.9247,0.0182,0.4607,0.1103,Light + CO2 + temperature,same building,Lecture room 1,3,383
+pooled retrain,0.9343,0.2,0.1085,0.5,Light + CO2 + temperature,same building,Lecture room 1,3,383
+local only,0.9777,0.0182,0.2621,0.5,Light + CO2 + temperature,same building,Lecture room 1,3,383
+re-threshold,0.9247,0.0182,0.4363,0.1164,Light + CO2 + temperature,same building,Lecture room 1,5,658
+pooled retrain,0.9334,0.1818,0.1369,0.5,Light + CO2 + temperature,same building,Lecture room 1,5,658
+local only,0.9617,0.0545,0.2248,0.5,Light + CO2 + temperature,same building,Lecture room 1,5,658
+re-threshold,0.9247,0.0,0.5731,0.0947,Light + CO2 + temperature,same building,Lecture room 1,7,869
+pooled retrain,0.9367,0.1818,0.16,0.5,Light + CO2 + temperature,same building,Lecture room 1,7,869
+local only,0.9585,0.0545,0.239,0.5,Light + CO2 + temperature,same building,Lecture room 1,7,869
+source only,0.9583,1.0,0.0,0.5,Light + CO2 + temperature,other building,Lecture room 1,0,0
+baseline-relative (label-free),0.9399,0.0727,0.2029,0.5,Light + CO2 + temperature,other building,Lecture room 1,0,0
+re-threshold,0.9583,0.1455,0.1308,0.0,Light + CO2 + temperature,other building,Lecture room 1,1,179
+pooled retrain,0.3411,0.0,1.0,0.5,Light + CO2 + temperature,other building,Lecture room 1,1,179
+re-threshold,0.9583,0.0182,0.3316,0.0,Light + CO2 + temperature,other building,Lecture room 1,2,304
+pooled retrain,0.4854,0.0182,0.9254,0.5,Light + CO2 + temperature,other building,Lecture room 1,2,304
+re-threshold,0.9583,0.0182,0.3235,0.0,Light + CO2 + temperature,other building,Lecture room 1,3,383
+pooled retrain,0.4823,0.0182,0.9241,0.5,Light + CO2 + temperature,other building,Lecture room 1,3,383
+re-threshold,0.9583,0.0364,0.293,0.0,Light + CO2 + temperature,other building,Lecture room 1,5,658
+pooled retrain,0.4916,0.0182,0.9292,0.5,Light + CO2 + temperature,other building,Lecture room 1,5,658
+re-threshold,0.9583,0.0364,0.2934,0.0,Light + CO2 + temperature,other building,Lecture room 1,7,869
+pooled retrain,0.5257,0.0182,0.9284,0.5,Light + CO2 + temperature,other building,Lecture room 1,7,869
+source only,0.8861,0.1481,0.2184,0.5,Light + CO2 + temperature,same building,Lecture room 2,0,0
+baseline-relative (label-free),0.8911,0.0963,0.2027,0.5,Light + CO2 + temperature,same building,Lecture room 2,0,0
+re-threshold,0.8861,0.3481,0.0661,0.8697,Light + CO2 + temperature,same building,Lecture room 2,1,136
+pooled retrain,0.9249,0.1833,0.1382,0.5,Light + CO2 + temperature,same building,Lecture room 2,1,136
+local only,0.8615,0.5037,0.0596,0.5,Light + CO2 + temperature,same building,Lecture room 2,1,136
+re-threshold,0.8861,0.1796,0.1767,0.6024,Light + CO2 + temperature,same building,Lecture room 2,2,249
+pooled retrain,0.9264,0.1444,0.1848,0.5,Light + CO2 + temperature,same building,Lecture room 2,2,249
+local only,0.9172,0.1352,0.1902,0.5,Light + CO2 + temperature,same building,Lecture room 2,2,249
+re-threshold,0.8861,0.1815,0.1724,0.611,Light + CO2 + temperature,same building,Lecture room 2,3,340
+pooled retrain,0.9255,0.1426,0.193,0.5,Light + CO2 + temperature,same building,Lecture room 2,3,340
+local only,0.9036,0.0574,0.2309,0.5,Light + CO2 + temperature,same building,Lecture room 2,3,340
+re-threshold,0.8861,0.2037,0.1566,0.6579,Light + CO2 + temperature,same building,Lecture room 2,5,574
+pooled retrain,0.9028,0.1889,0.1686,0.5,Light + CO2 + temperature,same building,Lecture room 2,5,574
+local only,0.8753,0.35,0.1491,0.5,Light + CO2 + temperature,same building,Lecture room 2,5,574
+re-threshold,0.8861,0.2148,0.1404,0.7027,Light + CO2 + temperature,same building,Lecture room 2,7,802
+pooled retrain,0.8605,0.2463,0.1783,0.5,Light + CO2 + temperature,same building,Lecture room 2,7,802
+local only,0.7728,0.4352,0.1989,0.5,Light + CO2 + temperature,same building,Lecture room 2,7,802
+source only,0.8146,0.9926,0.0038,0.5,Light + CO2 + temperature,other building,Lecture room 2,0,0
+baseline-relative (label-free),0.8647,0.2333,0.1458,0.5,Light + CO2 + temperature,other building,Lecture room 2,0,0
+re-threshold,0.8146,0.3815,0.1789,0.0,Light + CO2 + temperature,other building,Lecture room 2,1,136
+pooled retrain,0.6475,0.0,1.0,0.5,Light + CO2 + temperature,other building,Lecture room 2,1,136
+re-threshold,0.8146,0.2,0.2304,0.0,Light + CO2 + temperature,other building,Lecture room 2,2,249
+pooled retrain,0.6657,0.0,0.9967,0.5,Light + CO2 + temperature,other building,Lecture room 2,2,249
+re-threshold,0.8146,0.2,0.2298,0.0,Light + CO2 + temperature,other building,Lecture room 2,3,340
+pooled retrain,0.6292,0.0,1.0,0.5,Light + CO2 + temperature,other building,Lecture room 2,3,340
+re-threshold,0.8146,0.2037,0.2287,0.0,Light + CO2 + temperature,other building,Lecture room 2,5,574
+pooled retrain,0.6869,0.0074,1.0,0.5,Light + CO2 + temperature,other building,Lecture room 2,5,574
+re-threshold,0.8146,0.2037,0.2287,0.0,Light + CO2 + temperature,other building,Lecture room 2,7,802
+pooled retrain,0.7071,0.0259,1.0,0.5,Light + CO2 + temperature,other building,Lecture room 2,7,802
+source only,0.9738,0.0543,0.0539,0.5,Light + CO2 + temperature,same building,Office (admin),0,0
+baseline-relative (label-free),0.9261,0.1177,0.1084,0.5,Light + CO2 + temperature,same building,Office (admin),0,0
+re-threshold,0.9738,0.0,0.5353,0.1903,Light + CO2 + temperature,same building,Office (admin),1,133
+pooled retrain,0.9737,0.0285,0.0892,0.5,Light + CO2 + temperature,same building,Office (admin),1,133
+local only,0.9832,0.0,0.3978,0.5,Light + CO2 + temperature,same building,Office (admin),1,133
+re-threshold,0.9738,0.0013,0.4734,0.2169,Light + CO2 + temperature,same building,Office (admin),2,266
+pooled retrain,0.9869,0.0259,0.0743,0.5,Light + CO2 + temperature,same building,Office (admin),2,266
+local only,0.9813,0.0,0.3587,0.5,Light + CO2 + temperature,same building,Office (admin),2,266
+re-threshold,0.9738,0.0013,0.4294,0.2323,Light + CO2 + temperature,same building,Office (admin),3,439
+pooled retrain,0.9914,0.0323,0.0576,0.5,Light + CO2 + temperature,same building,Office (admin),3,439
+local only,0.9912,0.0,0.3432,0.5,Light + CO2 + temperature,same building,Office (admin),3,439
+re-threshold,0.9738,0.0013,0.4529,0.2234,Light + CO2 + temperature,same building,Office (admin),5,706
+pooled retrain,0.9914,0.0259,0.0688,0.5,Light + CO2 + temperature,same building,Office (admin),5,706
+local only,0.9894,0.0013,0.2367,0.5,Light + CO2 + temperature,same building,Office (admin),5,706
+re-threshold,0.9738,0.0,0.5793,0.1764,Light + CO2 + temperature,same building,Office (admin),7,965
+pooled retrain,0.9912,0.022,0.083,0.5,Light + CO2 + temperature,same building,Office (admin),7,965
+local only,0.9906,0.0,0.2912,0.5,Light + CO2 + temperature,same building,Office (admin),7,965
+source only,0.9923,1.0,0.0,0.5,Light + CO2 + temperature,other building,Office (admin),0,0
+baseline-relative (label-free),0.9369,0.1604,0.0898,0.5,Light + CO2 + temperature,other building,Office (admin),0,0
+re-threshold,0.9923,0.0,0.4071,0.0,Light + CO2 + temperature,other building,Office (admin),1,133
+pooled retrain,0.8241,0.4062,0.1196,0.5,Light + CO2 + temperature,other building,Office (admin),1,133
+re-threshold,0.9923,0.0,0.3377,0.0,Light + CO2 + temperature,other building,Office (admin),2,266
+pooled retrain,0.8408,0.4618,0.1029,0.5,Light + CO2 + temperature,other building,Office (admin),2,266
+re-threshold,0.9923,0.0065,0.1425,0.0,Light + CO2 + temperature,other building,Office (admin),3,439
+pooled retrain,0.8338,0.3415,0.1214,0.5,Light + CO2 + temperature,other building,Office (admin),3,439
+re-threshold,0.9923,0.0,0.2869,0.0,Light + CO2 + temperature,other building,Office (admin),5,706
+pooled retrain,0.854,0.326,0.1196,0.5,Light + CO2 + temperature,other building,Office (admin),5,706
+re-threshold,0.9923,0.0,0.3401,0.0,Light + CO2 + temperature,other building,Office (admin),7,965
+pooled retrain,0.8688,0.2613,0.1227,0.5,Light + CO2 + temperature,other building,Office (admin),7,965
+source only,0.892,0.3149,0.1344,0.5,Light + CO2 + temperature,same building,Office (research),0,0
+baseline-relative (label-free),0.8162,0.3623,0.1853,0.5,Light + CO2 + temperature,same building,Office (research),0,0
+re-threshold,0.892,0.7955,0.0431,0.6936,Light + CO2 + temperature,same building,Office (research),1,182
+pooled retrain,0.8931,0.6242,0.0757,0.5,Light + CO2 + temperature,same building,Office (research),1,182
+local only,0.8952,0.0147,0.2482,0.5,Light + CO2 + temperature,same building,Office (research),1,182
+re-threshold,0.892,0.3404,0.1287,0.5137,Light + CO2 + temperature,same building,Office (research),2,370
+pooled retrain,0.8952,0.2623,0.1612,0.5,Light + CO2 + temperature,same building,Office (research),2,370
+local only,0.898,0.0147,0.2539,0.5,Light + CO2 + temperature,same building,Office (research),2,370
+re-threshold,0.892,0.3384,0.1294,0.5126,Light + CO2 + temperature,same building,Office (research),3,550
+pooled retrain,0.8966,0.2411,0.162,0.5,Light + CO2 + temperature,same building,Office (research),3,550
+local only,0.9015,0.0167,0.2581,0.5,Light + CO2 + temperature,same building,Office (research),3,550
+re-threshold,0.892,0.159,0.1888,0.3868,Light + CO2 + temperature,same building,Office (research),5,906
+pooled retrain,0.8967,0.23,0.1634,0.5,Light + CO2 + temperature,same building,Office (research),5,906
+local only,0.9019,0.0167,0.2539,0.5,Light + CO2 + temperature,same building,Office (research),5,906
+re-threshold,0.892,0.1427,0.1924,0.3726,Light + CO2 + temperature,same building,Office (research),7,1311
+pooled retrain,0.8963,0.2264,0.1641,0.5,Light + CO2 + temperature,same building,Office (research),7,1311
+local only,0.8978,0.0147,0.256,0.5,Light + CO2 + temperature,same building,Office (research),7,1311
+source only,0.8799,0.9952,0.0,0.5,Light + CO2 + temperature,other building,Office (research),0,0
+baseline-relative (label-free),0.8197,0.5974,0.1662,0.5,Light + CO2 + temperature,other building,Office (research),0,0
+re-threshold,0.8799,0.4065,0.1379,0.0,Light + CO2 + temperature,other building,Office (research),1,182
+pooled retrain,0.9021,0.0,0.9526,0.5,Light + CO2 + temperature,other building,Office (research),1,182
+re-threshold,0.8799,0.2678,0.1888,0.0,Light + CO2 + temperature,other building,Office (research),2,370
+pooled retrain,0.9004,0.0128,0.3091,0.5,Light + CO2 + temperature,other building,Office (research),2,370
+re-threshold,0.8799,0.2726,0.1881,0.0,Light + CO2 + temperature,other building,Office (research),3,550
+pooled retrain,0.9009,0.012,0.3366,0.5,Light + CO2 + temperature,other building,Office (research),3,550
+re-threshold,0.8799,0.2415,0.1917,0.0,Light + CO2 + temperature,other building,Office (research),5,906
+pooled retrain,0.9013,0.0128,0.3069,0.5,Light + CO2 + temperature,other building,Office (research),5,906
+re-threshold,0.8799,0.23,0.1931,0.0,Light + CO2 + temperature,other building,Office (research),7,1311
+pooled retrain,0.901,0.0143,0.297,0.5,Light + CO2 + temperature,other building,Office (research),7,1311
+source only,0.9445,0.0099,0.2141,0.5,Light + CO2 + temperature,same building,Library,0,0
+baseline-relative (label-free),0.9454,0.1395,0.0866,0.5,Light + CO2 + temperature,same building,Library,0,0
+re-threshold,0.9445,0.0336,0.1366,0.9695,Light + CO2 + temperature,same building,Library,1,133
+pooled retrain,0.9452,0.1474,0.0879,0.5,Light + CO2 + temperature,same building,Library,1,133
+local only,0.9242,0.7737,0.0317,0.5,Light + CO2 + temperature,same building,Library,1,133
+re-threshold,0.9445,0.0289,0.1495,0.9542,Light + CO2 + temperature,same building,Library,2,248
+pooled retrain,0.9462,0.0336,0.1254,0.5,Light + CO2 + temperature,same building,Library,2,248
+local only,0.9403,0.6039,0.035,0.5,Light + CO2 + temperature,same building,Library,2,248
+re-threshold,0.9445,0.0,0.2736,0.1533,Light + CO2 + temperature,same building,Library,3,371
+pooled retrain,0.9462,0.0408,0.1229,0.5,Light + CO2 + temperature,same building,Library,3,371
+local only,0.9508,0.4546,0.0337,0.5,Light + CO2 + temperature,same building,Library,3,371
+re-threshold,0.9445,0.0,0.2686,0.1634,Light + CO2 + temperature,same building,Library,5,633
+pooled retrain,0.9462,0.0316,0.1266,0.5,Light + CO2 + temperature,same building,Library,5,633
+local only,0.9516,0.3743,0.0412,0.5,Light + CO2 + temperature,same building,Library,5,633
+re-threshold,0.9445,0.0125,0.1999,0.6442,Light + CO2 + temperature,same building,Library,7,916
+pooled retrain,0.9461,0.0283,0.1429,0.5,Light + CO2 + temperature,same building,Library,7,916
+local only,0.9518,0.1257,0.0816,0.5,Light + CO2 + temperature,same building,Library,7,916
+source only,0.9435,0.3836,0.0533,0.5,Light + CO2 + temperature,other building,Library,0,0
+baseline-relative (label-free),0.9157,0.2013,0.0766,0.5,Light + CO2 + temperature,other building,Library,0,0
+re-threshold,0.9435,0.0309,0.1374,0.0002,Light + CO2 + temperature,other building,Library,1,133
+pooled retrain,0.9428,0.0487,0.1341,0.5,Light + CO2 + temperature,other building,Library,1,133
+re-threshold,0.9435,0.0283,0.1491,0.0001,Light + CO2 + temperature,other building,Library,2,248
+pooled retrain,0.9431,0.0362,0.1395,0.5,Light + CO2 + temperature,other building,Library,2,248
+re-threshold,0.9435,0.0086,0.2436,0.0,Light + CO2 + temperature,other building,Library,3,371
+pooled retrain,0.943,0.0316,0.1541,0.5,Light + CO2 + temperature,other building,Library,3,371
+re-threshold,0.9435,0.0086,0.2436,0.0,Light + CO2 + temperature,other building,Library,5,633
+pooled retrain,0.943,0.0303,0.1637,0.5,Light + CO2 + temperature,other building,Library,5,633
+re-threshold,0.9435,0.0132,0.1987,0.0,Light + CO2 + temperature,other building,Library,7,916
+pooled retrain,0.943,0.0309,0.1574,0.5,Light + CO2 + temperature,other building,Library,7,916
+source only,0.9327,0.1818,0.0974,0.5,Environmental + Wi-Fi,same building,Lecture room 1,0,0
+baseline-relative (label-free),0.9571,0.0182,0.2664,0.5,Environmental + Wi-Fi,same building,Lecture room 1,0,0
+re-threshold,0.9327,0.1273,0.287,0.1435,Environmental + Wi-Fi,same building,Lecture room 1,1,179
+pooled retrain,0.9386,0.2727,0.0219,0.5,Environmental + Wi-Fi,same building,Lecture room 1,1,179
+local only,0.9592,0.1273,0.1137,0.5,Environmental + Wi-Fi,same building,Lecture room 1,1,179
+re-threshold,0.9327,0.0182,0.4839,0.0733,Environmental + Wi-Fi,same building,Lecture room 1,2,304
+pooled retrain,0.937,0.2,0.0416,0.5,Environmental + Wi-Fi,same building,Lecture room 1,2,304
+local only,0.9821,0.0364,0.1793,0.5,Environmental + Wi-Fi,same building,Lecture room 1,2,304
+re-threshold,0.9327,0.0727,0.3852,0.0914,Environmental + Wi-Fi,same building,Lecture room 1,3,383
+pooled retrain,0.9398,0.2,0.045,0.5,Environmental + Wi-Fi,same building,Lecture room 1,3,383
+local only,0.9708,0.0182,0.4942,0.5,Environmental + Wi-Fi,same building,Lecture room 1,3,383
+re-threshold,0.9327,0.0727,0.3711,0.0954,Environmental + Wi-Fi,same building,Lecture room 1,5,658
+pooled retrain,0.9376,0.2,0.0399,0.5,Environmental + Wi-Fi,same building,Lecture room 1,5,658
+local only,0.9767,0.0182,0.2698,0.5,Environmental + Wi-Fi,same building,Lecture room 1,5,658
+re-threshold,0.9327,0.0,0.5663,0.0637,Environmental + Wi-Fi,same building,Lecture room 1,7,869
+pooled retrain,0.938,0.2,0.0438,0.5,Environmental + Wi-Fi,same building,Lecture room 1,7,869
+local only,0.9757,0.0182,0.2119,0.5,Environmental + Wi-Fi,same building,Lecture room 1,7,869
+source only,0.9602,0.0778,0.1772,0.5,Environmental + Wi-Fi,same building,Lecture room 2,0,0
+baseline-relative (label-free),0.9518,0.0593,0.1718,0.5,Environmental + Wi-Fi,same building,Lecture room 2,0,0
+re-threshold,0.9602,0.2648,0.0114,0.981,Environmental + Wi-Fi,same building,Lecture room 2,1,136
+pooled retrain,0.9661,0.0815,0.1377,0.5,Environmental + Wi-Fi,same building,Lecture room 2,1,136
+local only,0.9482,0.4907,0.0108,0.5,Environmental + Wi-Fi,same building,Lecture room 2,1,136
+re-threshold,0.9602,0.1426,0.0656,0.8037,Environmental + Wi-Fi,same building,Lecture room 2,2,249
+pooled retrain,0.9698,0.0741,0.1545,0.5,Environmental + Wi-Fi,same building,Lecture room 2,2,249
+local only,0.9796,0.0796,0.0764,0.5,Environmental + Wi-Fi,same building,Lecture room 2,2,249
+re-threshold,0.9602,0.1444,0.0602,0.8163,Environmental + Wi-Fi,same building,Lecture room 2,3,340
+pooled retrain,0.965,0.0704,0.1767,0.5,Environmental + Wi-Fi,same building,Lecture room 2,3,340
+local only,0.9433,0.0611,0.348,0.5,Environmental + Wi-Fi,same building,Lecture room 2,3,340
+re-threshold,0.9602,0.163,0.052,0.8394,Environmental + Wi-Fi,same building,Lecture room 2,5,574
+pooled retrain,0.9586,0.0759,0.1512,0.5,Environmental + Wi-Fi,same building,Lecture room 2,5,574
+local only,0.9441,0.2481,0.0856,0.5,Environmental + Wi-Fi,same building,Lecture room 2,5,574
+re-threshold,0.9602,0.1426,0.0607,0.8138,Environmental + Wi-Fi,same building,Lecture room 2,7,802
+pooled retrain,0.9606,0.087,0.1566,0.5,Environmental + Wi-Fi,same building,Lecture room 2,7,802
+local only,0.8999,0.213,0.1583,0.5,Environmental + Wi-Fi,same building,Lecture room 2,7,802
+source only,0.9704,0.3933,0.0273,0.5,Environmental + Wi-Fi,same building,Office (admin),0,0
+baseline-relative (label-free),0.9222,0.1824,0.1072,0.5,Environmental + Wi-Fi,same building,Office (admin),0,0
+re-threshold,0.9704,0.0,0.5211,0.1375,Environmental + Wi-Fi,same building,Office (admin),1,133
+pooled retrain,0.9725,0.0517,0.0768,0.5,Environmental + Wi-Fi,same building,Office (admin),1,133
+local only,0.978,0.0,0.6791,0.5,Environmental + Wi-Fi,same building,Office (admin),1,133
+re-threshold,0.9704,0.0013,0.2962,0.1829,Environmental + Wi-Fi,same building,Office (admin),2,266
+pooled retrain,0.9846,0.0517,0.0651,0.5,Environmental + Wi-Fi,same building,Office (admin),2,266
+local only,0.9792,0.0,0.5638,0.5,Environmental + Wi-Fi,same building,Office (admin),2,266
+re-threshold,0.9704,0.0013,0.4207,0.1622,Environmental + Wi-Fi,same building,Office (admin),3,439
+pooled retrain,0.9866,0.0388,0.0589,0.5,Environmental + Wi-Fi,same building,Office (admin),3,439
+local only,0.99,0.0,0.3724,0.5,Environmental + Wi-Fi,same building,Office (admin),3,439
+re-threshold,0.9704,0.0013,0.461,0.1535,Environmental + Wi-Fi,same building,Office (admin),5,706
+pooled retrain,0.9859,0.0349,0.0626,0.5,Environmental + Wi-Fi,same building,Office (admin),5,706
+local only,0.9889,0.0091,0.2323,0.5,Environmental + Wi-Fi,same building,Office (admin),5,706
+re-threshold,0.9704,0.0,0.5434,0.129,Environmental + Wi-Fi,same building,Office (admin),7,965
+pooled retrain,0.9863,0.0336,0.0682,0.5,Environmental + Wi-Fi,same building,Office (admin),7,965
+local only,0.9902,0.0,0.2683,0.5,Environmental + Wi-Fi,same building,Office (admin),7,965
+source only,0.886,0.4396,0.1202,0.5,Environmental + Wi-Fi,same building,Office (research),0,0
+baseline-relative (label-free),0.8264,0.3017,0.1796,0.5,Environmental + Wi-Fi,same building,Office (research),0,0
+re-threshold,0.886,0.7182,0.0552,0.7485,Environmental + Wi-Fi,same building,Office (research),1,182
+pooled retrain,0.8828,0.6389,0.0827,0.5,Environmental + Wi-Fi,same building,Office (research),1,182
+local only,0.8999,0.0327,0.239,0.5,Environmental + Wi-Fi,same building,Office (research),1,182
+re-threshold,0.886,0.1682,0.1874,0.2759,Environmental + Wi-Fi,same building,Office (research),2,370
+pooled retrain,0.8895,0.3842,0.1308,0.5,Environmental + Wi-Fi,same building,Office (research),2,370
+local only,0.9046,0.0275,0.2511,0.5,Environmental + Wi-Fi,same building,Office (research),2,370
+re-threshold,0.886,0.177,0.1839,0.2848,Environmental + Wi-Fi,same building,Office (research),3,550
+pooled retrain,0.8895,0.3591,0.1351,0.5,Environmental + Wi-Fi,same building,Office (research),3,550
+local only,0.907,0.0227,0.2546,0.5,Environmental + Wi-Fi,same building,Office (research),3,550
+re-threshold,0.886,0.1104,0.2051,0.2166,Environmental + Wi-Fi,same building,Office (research),5,906
+pooled retrain,0.8882,0.3499,0.1365,0.5,Environmental + Wi-Fi,same building,Office (research),5,906
+local only,0.9049,0.0183,0.2532,0.5,Environmental + Wi-Fi,same building,Office (research),5,906
+re-threshold,0.886,0.043,0.2603,0.1269,Environmental + Wi-Fi,same building,Office (research),7,1311
+pooled retrain,0.8881,0.3647,0.1365,0.5,Environmental + Wi-Fi,same building,Office (research),7,1311
+local only,0.9018,0.0187,0.2567,0.5,Environmental + Wi-Fi,same building,Office (research),7,1311
+source only,0.9435,0.0086,0.2195,0.5,Environmental + Wi-Fi,same building,Library,0,0
+baseline-relative (label-free),0.9121,0.1507,0.1808,0.5,Environmental + Wi-Fi,same building,Library,0,0
+re-threshold,0.9435,0.1191,0.1004,0.9959,Environmental + Wi-Fi,same building,Library,1,133
+pooled retrain,0.9399,0.2796,0.0687,0.5,Environmental + Wi-Fi,same building,Library,1,133
+local only,0.93,0.7993,0.0208,0.5,Environmental + Wi-Fi,same building,Library,1,133
+re-threshold,0.9435,0.1059,0.1025,0.9946,Environmental + Wi-Fi,same building,Library,2,248
+pooled retrain,0.9453,0.0961,0.1016,0.5,Environmental + Wi-Fi,same building,Library,2,248
+local only,0.9431,0.6803,0.0275,0.5,Environmental + Wi-Fi,same building,Library,2,248
+re-threshold,0.9435,0.0,0.3299,0.1484,Environmental + Wi-Fi,same building,Library,3,371
+pooled retrain,0.9454,0.0862,0.1033,0.5,Environmental + Wi-Fi,same building,Library,3,371
+local only,0.9542,0.5474,0.035,0.5,Environmental + Wi-Fi,same building,Library,3,371
+re-threshold,0.9435,0.0105,0.2137,0.563,Environmental + Wi-Fi,same building,Library,5,633
+pooled retrain,0.945,0.0671,0.1145,0.5,Environmental + Wi-Fi,same building,Library,5,633
+local only,0.9571,0.2322,0.0537,0.5,Environmental + Wi-Fi,same building,Library,5,633
+re-threshold,0.9435,0.0132,0.2041,0.6959,Environmental + Wi-Fi,same building,Library,7,916
+pooled retrain,0.9448,0.05,0.1216,0.5,Environmental + Wi-Fi,same building,Library,7,916
+local only,0.9496,0.0855,0.0958,0.5,Environmental + Wi-Fi,same building,Library,7,916

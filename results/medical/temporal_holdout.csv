@@ -1,0 +1,7 @@
+setting,model,roc_auc,pr_auc,brier,prevalence,n,recall@fpr1,threshold@fpr1,recall@fpr5,threshold@fpr5,recall@fpr10,threshold@fpr10,recall@fpr20,threshold@fpr20
+temporal,LR,0.6691,0.3028,0.2347,0.1917,46989,0.0262,0.8659,0.1121,0.7397,0.215,0.6696,0.4135,0.5765
+temporal,RF,0.7237,0.3303,0.189,0.1917,46989,0.0309,0.7435,0.127,0.6802,0.2391,0.6348,0.4328,0.5709
+temporal,XGB,0.7223,0.3301,0.2122,0.1917,46989,0.03,0.8005,0.13,0.7397,0.2353,0.703,0.4373,0.6446
+"temporal, no history",LR,0.6639,0.2908,0.2407,0.1917,46989,,,,,,,,
+"temporal, no history",RF,0.718,0.3239,0.1938,0.1917,46989,,,,,,,,
+"temporal, no history",XGB,0.7221,0.3287,0.214,0.1917,46989,,,,,,,,

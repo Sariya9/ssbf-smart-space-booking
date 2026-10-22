@@ -1,0 +1,5 @@
+# datasets are public but not redistributed here (see data/README.md)
+data/*
+!data/README.md
+__pycache__/
+.DS_Store

@@ -1,0 +1,10 @@
+scenario,condition,sensor_false_vacant,sensor_outage,recovered_pct,wrongful_per100,displaced_per100,futile_per100
+calibrated in its own room (default),Check-in release + FCFS,0.005,0.02,12.819,16.91,0.309,4.638
+calibrated in its own room (default),ML + Sensing + DRF (SSBF),0.005,0.02,14.425,11.855,1.097,2.225
+calibrated in its own room (default),SSBF + extended redistribution,0.005,0.02,22.247,11.855,1.592,2.783
+"new room, no commissioning",Check-in release + FCFS,0.148,0.134,12.819,16.91,0.309,4.638
+"new room, no commissioning",ML + Sensing + DRF (SSBF),0.148,0.134,13.479,21.403,1.032,5.287
+"new room, no commissioning",SSBF + extended redistribution,0.148,0.134,20.555,21.403,1.507,6.622
+"new room, 3-day re-threshold",Check-in release + FCFS,0.018,0.274,12.819,16.91,0.309,4.638
+"new room, 3-day re-threshold",ML + Sensing + DRF (SSBF),0.018,0.274,12.073,9.625,0.944,2.07
+"new room, 3-day re-threshold",SSBF + extended redistribution,0.018,0.274,18.232,9.625,1.371,2.64

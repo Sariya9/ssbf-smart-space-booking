@@ -1,0 +1,79 @@
+dataset,features,model,setting,k_days,auc_median,fv_median,fv_max,mv_median,rooms
+ROBOD,Light + CO2 + temperature (original),LR,within room,,0.948,0.02,0.454,0.169,5
+ROBOD,Light + CO2 + temperature (original),LR,"other rooms, no set-up",0.0,0.925,0.148,0.315,0.134,5
+ROBOD,Light + CO2 + temperature (original),LR,"other rooms, re-threshold",1.0,0.925,0.034,0.796,0.137,5
+ROBOD,Light + CO2 + temperature (original),LR,"other rooms, re-threshold",2.0,0.925,0.029,0.34,0.177,5
+ROBOD,Light + CO2 + temperature (original),LR,"other rooms, re-threshold",3.0,0.925,0.018,0.338,0.274,5
+ROBOD,Light + CO2 + temperature (original),LR,"other rooms, re-threshold",5.0,0.925,0.018,0.204,0.269,5
+ROBOD,Light + CO2 + temperature (original),LR,"other rooms, re-threshold",7.0,0.925,0.012,0.215,0.2,5
+ROBOD,Light + CO2 + temperature (original),RF,within room,,0.931,0.022,0.091,0.226,5
+ROBOD,Light + CO2 + temperature (original),RF,"other rooms, no set-up",0.0,0.91,0.141,0.182,0.194,5
+ROBOD,Light + CO2 + temperature (original),RF,"other rooms, re-threshold",1.0,0.91,0.016,0.248,0.348,5
+ROBOD,Light + CO2 + temperature (original),RF,"other rooms, re-threshold",2.0,0.91,0.001,0.189,0.332,5
+ROBOD,Light + CO2 + temperature (original),RF,"other rooms, re-threshold",3.0,0.91,0.0,0.022,0.4,5
+ROBOD,Light + CO2 + temperature (original),RF,"other rooms, re-threshold",5.0,0.91,0.0,0.027,0.35,5
+ROBOD,Light + CO2 + temperature (original),RF,"other rooms, re-threshold",7.0,0.91,0.0,0.06,0.381,5
+ROBOD,Environmental + Wi-Fi,LR,within room,,0.972,0.023,0.1,0.134,5
+ROBOD,Environmental + Wi-Fi,LR,"other rooms, no set-up",0.0,0.944,0.182,0.44,0.12,5
+ROBOD,Environmental + Wi-Fi,LR,"other rooms, re-threshold",1.0,0.944,0.127,0.718,0.1,5
+ROBOD,Environmental + Wi-Fi,LR,"other rooms, re-threshold",2.0,0.944,0.106,0.168,0.187,5
+ROBOD,Environmental + Wi-Fi,LR,"other rooms, re-threshold",3.0,0.944,0.073,0.177,0.33,5
+ROBOD,Environmental + Wi-Fi,LR,"other rooms, re-threshold",5.0,0.944,0.073,0.163,0.214,5
+ROBOD,Environmental + Wi-Fi,LR,"other rooms, re-threshold",7.0,0.944,0.013,0.143,0.26,5
+ROBOD,Environmental + Wi-Fi,RF,within room,,0.954,0.018,0.06,0.221,5
+ROBOD,Environmental + Wi-Fi,RF,"other rooms, no set-up",0.0,0.91,0.128,0.273,0.184,5
+ROBOD,Environmental + Wi-Fi,RF,"other rooms, re-threshold",1.0,0.91,0.009,0.309,0.32,5
+ROBOD,Environmental + Wi-Fi,RF,"other rooms, re-threshold",2.0,0.91,0.013,0.137,0.263,5
+ROBOD,Environmental + Wi-Fi,RF,"other rooms, re-threshold",3.0,0.91,0.009,0.095,0.278,5
+ROBOD,Environmental + Wi-Fi,RF,"other rooms, re-threshold",5.0,0.91,0.009,0.095,0.258,5
+ROBOD,Environmental + Wi-Fi,RF,"other rooms, re-threshold",7.0,0.91,0.009,0.102,0.303,5
+ROBOD,All room sensors,LR,within room,,0.959,0.016,0.03,0.114,5
+ROBOD,All room sensors,LR,"other rooms, no set-up",0.0,0.944,0.154,0.691,0.124,5
+ROBOD,All room sensors,LR,"other rooms, re-threshold",1.0,0.944,0.133,0.65,0.094,5
+ROBOD,All room sensors,LR,"other rooms, re-threshold",2.0,0.944,0.118,0.309,0.148,5
+ROBOD,All room sensors,LR,"other rooms, re-threshold",3.0,0.944,0.003,0.332,0.201,5
+ROBOD,All room sensors,LR,"other rooms, re-threshold",5.0,0.944,0.01,0.344,0.221,5
+ROBOD,All room sensors,LR,"other rooms, re-threshold",7.0,0.944,0.012,0.335,0.261,5
+ROBOD,All room sensors,RF,within room,,0.963,0.013,0.026,0.162,5
+ROBOD,All room sensors,RF,"other rooms, no set-up",0.0,0.896,0.246,0.535,0.092,5
+ROBOD,All room sensors,RF,"other rooms, re-threshold",1.0,0.896,0.043,0.153,0.261,5
+ROBOD,All room sensors,RF,"other rooms, re-threshold",2.0,0.896,0.098,0.221,0.203,5
+ROBOD,All room sensors,RF,"other rooms, re-threshold",3.0,0.896,0.017,0.109,0.318,5
+ROBOD,All room sensors,RF,"other rooms, re-threshold",5.0,0.896,0.029,0.096,0.311,5
+ROBOD,All room sensors,RF,"other rooms, re-threshold",7.0,0.896,0.013,0.085,0.318,5
+ROBOD,All room sensors + building meters,LR,within room,,0.968,0.023,0.026,0.092,5
+ROBOD,All room sensors + building meters,LR,"other rooms, no set-up",0.0,0.946,0.164,0.475,0.064,5
+ROBOD,All room sensors + building meters,LR,"other rooms, re-threshold",1.0,0.946,0.155,0.732,0.104,5
+ROBOD,All room sensors + building meters,LR,"other rooms, re-threshold",2.0,0.946,0.076,0.465,0.111,5
+ROBOD,All room sensors + building meters,LR,"other rooms, re-threshold",3.0,0.946,0.01,0.465,0.231,5
+ROBOD,All room sensors + building meters,LR,"other rooms, re-threshold",5.0,0.946,0.014,0.47,0.167,5
+ROBOD,All room sensors + building meters,LR,"other rooms, re-threshold",7.0,0.946,0.01,0.494,0.249,5
+ROBOD,All room sensors + building meters,RF,within room,,0.983,0.017,0.074,0.133,5
+ROBOD,All room sensors + building meters,RF,"other rooms, no set-up",0.0,0.918,0.127,0.527,0.162,5
+ROBOD,All room sensors + building meters,RF,"other rooms, re-threshold",1.0,0.918,0.036,0.526,0.216,5
+ROBOD,All room sensors + building meters,RF,"other rooms, re-threshold",2.0,0.918,0.026,0.484,0.223,5
+ROBOD,All room sensors + building meters,RF,"other rooms, re-threshold",3.0,0.918,0.017,0.116,0.239,5
+ROBOD,All room sensors + building meters,RF,"other rooms, re-threshold",5.0,0.918,0.026,0.053,0.258,5
+ROBOD,All room sensors + building meters,RF,"other rooms, re-threshold",7.0,0.918,0.006,0.046,0.258,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,within room,,0.945,0.054,0.506,0.097,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,"other rooms, no set-up",0.0,0.93,0.4,0.672,0.052,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,"other rooms, re-threshold",1.0,0.93,0.23,0.56,0.118,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,"other rooms, re-threshold",2.0,0.93,0.074,0.551,0.118,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,"other rooms, re-threshold",3.0,0.93,0.017,0.282,0.379,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,"other rooms, re-threshold",5.0,0.93,0.025,0.145,0.391,5
+ROBOD,No light: CO2 + Wi-Fi + sound,LR,"other rooms, re-threshold",7.0,0.93,0.022,0.126,0.407,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,within room,,0.915,0.046,0.338,0.124,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,"other rooms, no set-up",0.0,0.794,0.339,0.601,0.307,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,"other rooms, re-threshold",1.0,0.794,0.08,0.4,0.686,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,"other rooms, re-threshold",2.0,0.794,0.048,0.353,0.791,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,"other rooms, re-threshold",3.0,0.794,0.048,0.358,0.781,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,"other rooms, re-threshold",5.0,0.794,0.033,0.062,0.903,5
+ROBOD,No light: CO2 + Wi-Fi + sound,RF,"other rooms, re-threshold",7.0,0.794,0.043,0.07,0.895,5
+Room B,Light + CO2 + temperature (original),LR,within room (Dec -> Jan),,0.995,0.626,0.626,0.0,1
+Room B,Light + CO2 + temperature (original),RF,within room (Dec -> Jan),,0.991,0.626,0.626,0.0,1
+Room B,Light + CO2 + temperature + PIR,LR,within room (Dec -> Jan),,0.999,0.626,0.626,0.0,1
+Room B,Light + CO2 + temperature + PIR,RF,within room (Dec -> Jan),,0.999,0.626,0.626,0.0,1
+Room B,"All sensors (+ PIR, sound, CO2 slope)",LR,within room (Dec -> Jan),,1.0,0.599,0.599,0.0,1
+Room B,"All sensors (+ PIR, sound, CO2 slope)",RF,within room (Dec -> Jan),,1.0,0.626,0.626,0.0,1
+Room B,No light: CO2 + PIR + sound,LR,within room (Dec -> Jan),,0.997,0.037,0.037,0.009,1
+Room B,No light: CO2 + PIR + sound,RF,within room (Dec -> Jan),,0.997,0.003,0.003,0.07,1

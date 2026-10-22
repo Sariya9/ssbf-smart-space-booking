@@ -1,0 +1,6 @@
+,rf_importance,lr_coef,odds_ratio
+CO2,0.2701,1.8716,6.4986
+Humidity,0.0143,0.0343,1.0349
+HumidityRatio,0.0256,-0.0353,0.9653
+Light,0.5899,4.4999,90.0116
+Temperature,0.1001,-1.2172,0.296
