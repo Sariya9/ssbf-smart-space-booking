@@ -20,7 +20,7 @@ sh run_all.sh          # about 7-10 minutes on an 8-core laptop
 |---|---|---|
 | `code/01_noshow_model.py` | Tables 2, 3, 5 and 6 (hotel parts) | `results/noshow/` |
 | `code/02_medical_noshow_model.py` | Tables 3, 5 and 6 (medical parts) | `results/medical/` |
-| `code/03_queue_simulation.py` | Tables 4, 13, 14, 15 | `results/simulation/` |
+| `code/03_queue_simulation.py` | Tables 4, 13, 14 (user rules), 15, 16 | `results/simulation/` |
 | `code/04_occupancy_model.py` | Tables 7, 8 | `results/occupancy/` |
 | `code/06_cross_room_occupancy.py` | Table 9 (cross-room validation) | `results/occupancy/cross_room*` |
 | `code/07_building_occupancy.py` | Table 10 (building-level validation; `--no-clock-correction` for the uncorrected run) | `results/occupancy/building*` |
@@ -36,7 +36,7 @@ Table and figure numbers refer to the revised manuscript. Fig. 1 (`figures/fig1_
 - **Target.** Hotel no-shows are `reservation_status == "No-Show"` versus `"Check-Out"`; cancelled bookings are excluded, because an advance cancellation releases capacity and is not a ghost booking.
 - **Features.** Only information available when a booking is created. Excluded variables and the reasons are listed in each script (`EXCLUDED`).
 - **Validation.** Stratified (hotel) or patient-grouped (medical) 5-fold CV, plus temporal hold-outs and cross-hotel transfer.
-- **Simulation.** All parameters are in `DEFAULTS` in `03_queue_simulation.py`. No-show rates are specified independently of the ML models. The statistical unit is the replication (the same 30 seeds for the main experiment and every sensitivity setting), with common random numbers across conditions. Twelve conditions are compared, including extended redistribution and the late-arrival safeguards (a "running late" button and re-housing of displaced users); the safeguard conditions use their own random stream, so adding them leaves every other condition unchanged.
+- **Simulation.** All parameters are in `DEFAULTS` in `03_queue_simulation.py`. No-show rates are specified independently of the ML models. The statistical unit is the replication (the same 30 seeds for the main experiment and every sensitivity setting), with common random numbers across conditions. Twelve conditions are compared, including extended redistribution and the user rules ("running late", re-housing, re-offering unclaimed offers, repeat no-shows, leaving early, extensions). Rule-related events use their own random streams, so adding them leaves every other condition unchanged. Leaving early and unclaimed offers are off in the main run and varied in the sensitivity analysis and a behaviour scenario.
 
 ## Software
 

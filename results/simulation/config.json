@@ -47,7 +47,14 @@
     "walkin_rate": 0.5,
     "late_notify": 0.5,
     "noshow_notify": 0.05,
-    "max_hold": 30
+    "max_hold": 30,
+    "repeat_noshows": 3,
+    "accept_recheck": 10,
+    "leave_detect": 15,
+    "done_button": 0.5,
+    "extend_max": 30,
+    "early_leave": 0.0,
+    "accept_noshow": 0.0
   },
   "conditions": {
     "No release": {
@@ -91,16 +98,16 @@
       "policy": "drf",
       "extended": true
     },
-    "SSBF + late-arrival safeguards": {
+    "SSBF + user rules": {
       "trigger": "ml+sensing",
       "policy": "drf",
-      "safeguards": true
+      "rules": true
     },
-    "SSBF + extended + safeguards": {
+    "SSBF + extended + user rules": {
       "trigger": "ml+sensing",
       "policy": "drf",
       "extended": true,
-      "safeguards": true
+      "rules": true
     }
   },
   "seeds": [
@@ -225,7 +232,19 @@
       0.05,
       0.1,
       0.2
+    ],
+    "early_leave": [
+      0.0,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "accept_noshow": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
     ]
   },
-  "runtime_sec": 53.1
+  "runtime_sec": 71.7
 }
