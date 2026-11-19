@@ -2,7 +2,7 @@
 
 Code accompanying *An Explainable AI Framework for Smart Space Management Integrating IoT Sensing, Machine Learning, and Fair Resource Allocation* (Lura, Sammo, Al-Quraishi, Bevinakoppa, Nowrozy), submitted to *Discover Artificial Intelligence*.
 
-Every table and figure in the revised manuscript is produced by the scripts below. All random seeds are fixed, so a run on the same data reproduces the reported numbers exactly.
+Every table and figure in the revised manuscript is produced by the scripts below. All random seeds are fixed. Random Forest results depend on the computing environment: the values reported in the manuscript were obtained on Linux (Python 3.13.5, NumPy 2.3.5, SciPy 1.17.0, scikit-learn 1.8.0), whereas macOS (Python 3.13.12, NumPy 2.4.4, SciPy 1.17.1, scikit-learn 1.8.0) gives slightly different Random Forest values. No conclusion of the paper depends on them.
 
 ## Quick start
 
@@ -40,7 +40,7 @@ Table and figure numbers refer to the revised manuscript. Fig. 1 (`figures/fig1_
 
 ## Software
 
-Python 3.13 with the package versions in `requirements.txt`.
+Python 3.13. `requirements.txt` pins the macOS package versions listed above; the reported Random Forest values come from the Linux versions.
 
 ## Data
 
